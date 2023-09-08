@@ -1,0 +1,15 @@
+Selectors/ContactsSelectors.class
+PageObject/HomePage.class
+Selectors/MessageModalSelectors.class
+StepDefinitions/HomePageSteps.class
+PageObject/Contacts.class
+StepDefinitions/MessageModalSteps.class
+PageObject/SendMessageModal.class
+Selectors/HomePageSelectors.class
+StepDefinitions/ContactsSteps.class
+StepDefinitions/LanguagesSteps.class
+BaseClass/BaseClass.class
+StepDefinitions/Hooks.class
+PageObject/Elements.class
+PageObject/Languages.class
+TestRunner/RunnerTest.class
