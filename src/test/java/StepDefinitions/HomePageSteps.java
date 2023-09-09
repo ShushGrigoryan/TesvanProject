@@ -18,7 +18,7 @@ public class HomePageSteps extends HomePage {
     public void home_page_is_open() {
         super.homePage();
         Assertions.assertTrue(super.homePageOpens());
-        base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     };
 
@@ -38,4 +38,28 @@ public class HomePageSteps extends HomePage {
         super.isModalClosed();
     }
 
+    @When("I select a {string} language")
+    public void iSelectALanguage(String selectedLanguage) {
+        switch (selectedLanguage) {
+            case "Arm":
+            case "Ru":
+                super.selectLanguage(selectedLanguage);
+                break;
+            default:
+                Assertions.fail("Unsupported social media: " + selectedLanguage);
+        }
+
+    }
+
+    @Then("I see that the page URL should be contain the {string}")
+    public void iSeeThatThePageURLShouldContain(String expectedLanguage) {
+        String currentURL = super.urlContains(expectedLanguage); // Call the urlContains method to get the current URL
+        System.out.println(currentURL);
+        Assertions.assertTrue(currentURL.contains(expectedLanguage));
+    }
+
+    @And("I decides to switch back to the original language")
+    public void swich_to_back() {
+        super.navigateBack();
+    }
 }

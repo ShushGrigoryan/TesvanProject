@@ -1,4 +1,4 @@
-@test
+
 
 Feature: As A user I want to send message
 
@@ -59,7 +59,7 @@ Feature: As A user I want to send message
 
     Scenario Outline: Verify Social Media Navigation from Contact Information
 
-        When I click on the "<social_media>" link
+        When I click on the "<social_media>" button
         Then I should be navigate on "<expected_url>" page
 
         Examples:

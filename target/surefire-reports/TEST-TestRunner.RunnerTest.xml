@@ -1,134 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestRunner.RunnerTest" time="30.358" errors="1" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner.RunnerTest" time="72.046" tests="3" errors="3" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/david/Desktop/Tesvan- auto/tesvan_auto"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/david/Desktop/Tesvan- auto/tesvan_auto"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/maven/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.15.0-83-generic"/>
-    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/david"/>
-    <property name="user.timezone" value="Asia/Yerevan"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="david"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Yerevan"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/david"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="11.0.20.1"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="java.specification.maintenance.version" value="2"/>
-    <property name="maven.home" value="/usr/share/maven"/>
-    <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="david"/>
+    <property name="path.separator" value=":"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="os.version" value="5.15.0-83-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/home/david/Desktop/Tesvan_Project/TesvanProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/david/Desktop/Tesvan_Project/TesvanProject"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu120.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase classname="As A user I want to send message #1" name="Send a message with valid data" time="30.358">
-    <error message="Unable to locate element: //div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;
+  <testcase name="Verify Social Media Navigation from Contact #1" classname="As A user I want to send message and navigate to social media pages" time="24.527">
+    <error message="Element &lt;button id=&quot;headerButton&quot; class=&quot;Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB&quot; type=&quot;button&quot;&gt; is not clickable at point (923,30) because another element &lt;nav class=&quot;MenuItems_itemsNav__iv9jh&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [d19999fd-9be6-420e-8820-367c561a4d8f, clickElement {id=240dd69f-e743-44db-a6c6-493ef751488d}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18251, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 52998, moz:profile: /tmp/rust_mozprofileMw1hvX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18251/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on linux (d19999fd-9be6-420e-8820-367c561a4d8f)] -&gt; css selector: #headerButton]&#10;Session ID: d19999fd-9be6-420e-8820-367c561a4d8f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b0207f82-2f66-434f-a1e3-854ca68dd289, findElement {using=xpath, value=//div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 170812, moz:profile: /tmp/rust_mozprofileVNREQC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b0207f82-2f66-434f-a1e3-854ca68dd289" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b0207f82-2f66-434f-a1e3-854ca68dd289, findElement {using=xpath, value=//div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 170812, moz:profile: /tmp/rust_mozprofileVNREQC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b0207f82-2f66-434f-a1e3-854ca68dd289
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:25)
-	at StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)
-	at ✽.I should see the succsessfuly message &quot;Your message has been sent successfully.&quot; on Contacts page(file:///home/david/Desktop/Tesvan-%20auto/tesvan_auto/src/test/features/Contacts.feature:24)
-</error>
-    <system-out>
+Command: [d19999fd-9be6-420e-8820-367c561a4d8f, clickElement {id=240dd69f-e743-44db-a6c6-493ef751488d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18251, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 52998, moz:profile: /tmp/rust_mozprofileMw1hvX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18251/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (d19999fd-9be6-420e-8820-367c561a4d8f)] -> css selector: #headerButton]
+Session ID: d19999fd-9be6-420e-8820-367c561a4d8f
+]]></error>
+    <system-out><![CDATA[
 @test
-Scenario: Send a message with valid data                                                                 &amp;#27;[90m# src/test/features/Contacts.feature:13&amp;#27;[0m
+Scenario Outline: Verify Social Media Navigation from Contact           &amp#27;[90m# src/test/features/Contacts.feature:23&amp#27;[0m
 Open browser
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mHome page is open&amp;#27;[0m                                                                                &amp;#27;[90m# StepDefinitions.HomePageSteps.home_page_is_open()&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe modal is closed&amp;#27;[0m                                                                              &amp;#27;[90m# StepDefinitions.HomePageSteps.modal_is_closed()&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Contacts&quot;&amp;#27;[0m&amp;#27;[32m button&amp;#27;[0m                                                                  &amp;#27;[90m# StepDefinitions.MessageModalSteps.send_message(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI scrool down page&amp;#27;[0m                                                                                &amp;#27;[90m# StepDefinitions.ContactsSteps.scrool_down_page()&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI fill in &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Full_Name&quot;&amp;#27;[0m&amp;#27;[32m field with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;nameTest&quot;&amp;#27;[0m&amp;#27;[32m value&amp;#27;[0m                                                 &amp;#27;[90m# StepDefinitions.MessageModalSteps.fill_field(java.lang.String,java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI fill in &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Email&quot;&amp;#27;[0m&amp;#27;[32m field with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;email@test.com&quot;&amp;#27;[0m&amp;#27;[32m value&amp;#27;[0m                                               &amp;#27;[90m# StepDefinitions.MessageModalSteps.fill_field(java.lang.String,java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI fill in &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Phone&quot;&amp;#27;[0m&amp;#27;[32m field with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;123456789&quot;&amp;#27;[0m&amp;#27;[32m value&amp;#27;[0m                                                    &amp;#27;[90m# StepDefinitions.MessageModalSteps.fill_field(java.lang.String,java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI fill in &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Company&quot;&amp;#27;[0m&amp;#27;[32m field with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;testCompany&quot;&amp;#27;[0m&amp;#27;[32m value&amp;#27;[0m                                                &amp;#27;[90m# StepDefinitions.MessageModalSteps.fill_field(java.lang.String,java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI fill in &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Description&quot;&amp;#27;[0m&amp;#27;[32m field with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;testingtestingtestingtesting&quot;&amp;#27;[0m&amp;#27;[32m value&amp;#27;[0m                           &amp;#27;[90m# StepDefinitions.MessageModalSteps.fill_field(java.lang.String,java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI check the I agree to checkbox&amp;#27;[0m                                                                   &amp;#27;[90m# StepDefinitions.MessageModalSteps.check_checkbox()&amp;#27;[0m
-Error while interacting with the element: Element &lt;button class=&quot;Button_button__k9F7A Button_yellow__zUx2d ContactForm_save__nKOLv undefined Button_eng__VMlwB&quot; type=&quot;submit&quot;&gt; is not clickable at point (530,30) because another element &lt;div class=&quot;Logo_logo__oGIB8 NavMenu_logo___kegW&quot;&gt; obscures it
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mHome page is open&amp#27;[0m                                               &amp#27;[90m# StepDefinitions.HomePageSteps.home_page_is_open()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe modal is closed&amp#27;[0m                                             &amp#27;[90m# StepDefinitions.HomePageSteps.modal_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Contacts"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI click on the &amp#27;[0m&amp#27;[31m&amp#27;[1m"ScroolDown"&amp#27;[0m&amp#27;[31m button&amp#27;[0m                                &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b0207f82-2f66-434f-a1e3-854ca68dd289, clickElement {id=bfcf8b1b-e3d9-4964-ad65-95ff21c20ba2}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 170812, moz:profile: /tmp/rust_mozprofileVNREQC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on linux (b0207f82-2f66-434f-a1e3-854ca68dd289)] -&gt; xpath: //div[contains(@class,&apos;Contact_container__KZnxh&apos;)]//button[contains(@type,&apos;submit&apos;)][normalize-space()=&apos;Send Message&apos;]]
-Session ID: b0207f82-2f66-434f-a1e3-854ca68dd289
-  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Send_Message&quot;&amp;#27;[0m&amp;#27;[32m button&amp;#27;[0m                                                              &amp;#27;[90m# StepDefinitions.MessageModalSteps.send_message(java.lang.String)&amp;#27;[0m
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should see the succsessfuly message &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Your message has been sent successfully.&quot;&amp;#27;[0m&amp;#27;[31m on Contacts page&amp;#27;[0m &amp;#27;[90m# StepDefinitions.ContactsSteps.verify_successful_message(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: Unable to locate element: //div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b0207f82-2f66-434f-a1e3-854ca68dd289, findElement {using=xpath, value=//div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()=&apos;Your message has been sent successfully.&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 170812, moz:profile: /tmp/rust_mozprofileVNREQC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b0207f82-2f66-434f-a1e3-854ca68dd289
+Command: [d19999fd-9be6-420e-8820-367c561a4d8f, clickElement {id=240dd69f-e743-44db-a6c6-493ef751488d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18251, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 52998, moz:profile: /tmp/rust_mozprofileMw1hvX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18251/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (d19999fd-9be6-420e-8820-367c561a4d8f)] -> css selector: #headerButton]
+Session ID: d19999fd-9be6-420e-8820-367c561a4d8f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -140,15 +99,116 @@ Session ID: b0207f82-2f66-434f-a1e3-854ca68dd289
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:25)
-	at StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)
-	at ✽.I should see the succsessfuly message &quot;Your message has been sent successfully.&quot; on Contacts page(file:///home/david/Desktop/Tesvan-%20auto/tesvan_auto/src/test/features/Contacts.feature:24)
-&amp;#27;[0m
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)
+	at StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)
+	at ✽.I click on the "ScroolDown" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:17)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Upwork"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                                   &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be navigate on &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.upwork.com/ag/tesvan/"&amp#27;[0m&amp#27;[36m page&amp#27;[0m &amp#27;[90m# StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(java.lang.String)&amp#27;[0m
 Close browser
-</system-out>
+]]></system-out>
+    <system-err><![CDATA[Sep 09, 2023 8:59:27 PM io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
+WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Social Media Navigation from Contact #2" classname="As A user I want to send message and navigate to social media pages" time="22.24">
+    <error message="Element &lt;button id=&quot;headerButton&quot; class=&quot;Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB&quot; type=&quot;button&quot;&gt; is not clickable at point (923,30) because another element &lt;nav class=&quot;MenuItems_itemsNav__iv9jh&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [00ca619e-4833-4862-a3a6-d3fc77834dc5, clickElement {id=6d6746f3-3cc5-4e94-9d9d-6e06b858bc18}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18944, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53462, moz:profile: /tmp/rust_mozprofileJ1Su8g, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18944/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on linux (00ca619e-4833-4862-a3a6-d3fc77834dc5)] -&gt; css selector: #headerButton]&#10;Session ID: 00ca619e-4833-4862-a3a6-d3fc77834dc5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [00ca619e-4833-4862-a3a6-d3fc77834dc5, clickElement {id=6d6746f3-3cc5-4e94-9d9d-6e06b858bc18}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18944, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53462, moz:profile: /tmp/rust_mozprofileJ1Su8g, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18944/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (00ca619e-4833-4862-a3a6-d3fc77834dc5)] -> css selector: #headerButton]
+Session ID: 00ca619e-4833-4862-a3a6-d3fc77834dc5
+]]></error>
+    <system-out><![CDATA[
+@test
+Scenario Outline: Verify Social Media Navigation from Contact                 &amp#27;[90m# src/test/features/Contacts.feature:24&amp#27;[0m
+Open browser
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mHome page is open&amp#27;[0m                                                     &amp#27;[90m# StepDefinitions.HomePageSteps.home_page_is_open()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe modal is closed&amp#27;[0m                                                   &amp#27;[90m# StepDefinitions.HomePageSteps.modal_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Contacts"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                                        &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI click on the &amp#27;[0m&amp#27;[31m&amp#27;[1m"ScroolDown"&amp#27;[0m&amp#27;[31m button&amp#27;[0m                                      &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [00ca619e-4833-4862-a3a6-d3fc77834dc5, clickElement {id=6d6746f3-3cc5-4e94-9d9d-6e06b858bc18}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18944, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53462, moz:profile: /tmp/rust_mozprofileJ1Su8g, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18944/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (00ca619e-4833-4862-a3a6-d3fc77834dc5)] -> css selector: #headerButton]
+Session ID: 00ca619e-4833-4862-a3a6-d3fc77834dc5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)
+	at StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)
+	at ✽.I click on the "ScroolDown" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:17)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Linkedin"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                                       &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be navigate on &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.linkedin.com/company/tesvan"&amp#27;[0m&amp#27;[36m page&amp#27;[0m &amp#27;[90m# StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(java.lang.String)&amp#27;[0m
+Close browser
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Social Media Navigation from Contact #3" classname="As A user I want to send message and navigate to social media pages" time="22.381">
+    <error message="Element &lt;button id=&quot;headerButton&quot; class=&quot;Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB&quot; type=&quot;button&quot;&gt; is not clickable at point (923,30) because another element &lt;nav class=&quot;MenuItems_itemsNav__iv9jh&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-83-generic&apos;, java.version: &apos;11.0.20.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [c80c6352-a062-4938-9158-9735da14e524, clickElement {id=6f4154d8-278e-44a0-af7c-049ae089c510}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10423, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53991, moz:profile: /tmp/rust_mozprofileL9HJp9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10423/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on linux (c80c6352-a062-4938-9158-9735da14e524)] -&gt; css selector: #headerButton]&#10;Session ID: c80c6352-a062-4938-9158-9735da14e524" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c80c6352-a062-4938-9158-9735da14e524, clickElement {id=6f4154d8-278e-44a0-af7c-049ae089c510}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10423, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53991, moz:profile: /tmp/rust_mozprofileL9HJp9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10423/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (c80c6352-a062-4938-9158-9735da14e524)] -> css selector: #headerButton]
+Session ID: c80c6352-a062-4938-9158-9735da14e524
+]]></error>
+    <system-out><![CDATA[
+@test
+Scenario Outline: Verify Social Media Navigation from Contact            &amp#27;[90m# src/test/features/Contacts.feature:25&amp#27;[0m
+Open browser
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mHome page is open&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.HomePageSteps.home_page_is_open()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe modal is closed&amp#27;[0m                                              &amp#27;[90m# StepDefinitions.HomePageSteps.modal_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Contacts"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                                   &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI click on the &amp#27;[0m&amp#27;[31m&amp#27;[1m"ScroolDown"&amp#27;[0m&amp#27;[31m button&amp#27;[0m                                 &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c80c6352-a062-4938-9158-9735da14e524, clickElement {id=6f4154d8-278e-44a0-af7c-049ae089c510}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10423, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53991, moz:profile: /tmp/rust_mozprofileL9HJp9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10423/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (c80c6352-a062-4938-9158-9735da14e524)] -> css selector: #headerButton]
+Session ID: c80c6352-a062-4938-9158-9735da14e524
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)
+	at StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)
+	at ✽.I click on the "ScroolDown" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:17)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Facebook"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.MessageSteps.send_message(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be navigate on &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.facebook.com/tesvanllc"&amp#27;[0m&amp#27;[36m page&amp#27;[0m &amp#27;[90m# StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(java.lang.String)&amp#27;[0m
+Close browser
+]]></system-out>
   </testcase>
 </testsuite>
