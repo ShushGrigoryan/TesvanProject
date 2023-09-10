@@ -18,7 +18,7 @@ public class Contacts extends BaseClass {
         this.base = base;
     }
 
-   
+    
     public boolean ResponseMessageFromContacts(String responseSuccessMesage) {
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(20));
         By successMessageLocator = ContactsSelectors.successMesageFromContacts(responseSuccessMesage);
@@ -43,7 +43,19 @@ public class Contacts extends BaseClass {
                 .findElement(ContactsSelectors.emailErrorMessage(expectedErrorMessage));
         return errorElement.getText();
     }
+ 
 
+    public String textAreaError(String expectedErrorMessage) {
+        WebElement errorElement = base.driver
+                .findElement(ContactsSelectors.getTextAreaErrorSelector(expectedErrorMessage));
+        return errorElement.getText();
+    }
+
+    public String checkboxError(String expectedErrorMessage) {
+        WebElement errorElement = base.driver
+                .findElement(ContactsSelectors.getCheckboxErrorSelector(expectedErrorMessage));
+        return errorElement.getText();
+    }
 
    
 }

@@ -1,11 +1,13 @@
 
+
+
 Feature: As a user I want to check Home Page functionality
 
     Background:
         Given Home page is open
         Given The modal is closed
 
-  
+
 
     Scenario Outline: Verify Language Selection Functionality
 
@@ -17,6 +19,7 @@ Feature: As a user I want to check Home Page functionality
             | language | selected_language | expected_URL |
             | ENG      | Arm               | /am          |
             | ENG      | Ru                | /ru          |
+
 
     Scenario Outline: User selects some language and switches back
 

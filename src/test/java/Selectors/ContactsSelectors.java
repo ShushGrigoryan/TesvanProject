@@ -13,6 +13,16 @@ public class ContactsSelectors {
             .xpath("//div[contains(@class,'Contact_container__KZnxh')]//input[contains(@type,'checkbox')]");
 
     public static By emailErrorMessage(String expectedErrorMessage) {
-        return By.xpath("//p[normalize-space()='" + expectedErrorMessage + "']");
+        return By.xpath("//p[contains(@class, 'Input_error__')][contains(text(), '" + expectedErrorMessage + "')]");
+    }
+
+    public static By getTextAreaErrorSelector(String expectedErrorMessage) {
+        return By.xpath("//p[contains(@class, 'Textarea_error__')][contains(text(), '" + expectedErrorMessage
+                + "')]");
+    }
+
+    public static By getCheckboxErrorSelector(String expectedErrorMessage) {
+        return By.xpath("//p[contains(@class, 'ContactForm_error')][contains(text(), '" + expectedErrorMessage
+                + "')]");
     }
 }

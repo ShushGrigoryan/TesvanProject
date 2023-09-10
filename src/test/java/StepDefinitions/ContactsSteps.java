@@ -15,13 +15,6 @@ public class ContactsSteps extends Contacts {
     }
 
 
-    // @And("I scrool down page")
-    // public void scrool_down_page() {
-    //     // super.ScroolDownPage();
-    //     WebElement someElement = base.driver.findElement(By.xpath("//div/button[1]"));
-    //     ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);", someElement);
-
-    // }
 
     @Then("I should see the succsessfuly message {string} on Contacts page")
     public void verify_successful_message(String responseSuccessMesage) {
@@ -42,4 +35,16 @@ public class ContactsSteps extends Contacts {
 
 
 
+    @Then("I should see the text area error {string}")
+    public void verify_textarea_error(String expectedErrorMessage) {
+        String actualErrorMessage = super.textAreaError(expectedErrorMessage);
+        Assertions.assertEquals(expectedErrorMessage, actualErrorMessage);
+    }
+
+    @Then("I should see the checking error {string}")
+    public void verify_checkbox_error(String expectedErrorMessage) {
+        String actualErrorMessage = super.checkboxError(expectedErrorMessage);
+        Assertions.assertEquals(expectedErrorMessage, actualErrorMessage);
+    }
+    
 }

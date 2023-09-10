@@ -16,10 +16,6 @@ public class MessageSteps extends SendMessageModal {
         super.fillField(fieldName, value);
     }
 
-    // @Then("I see the {string} value is displayed in {string} field")
-    // public void value_is_displayed(String value, String fieldName) {
-    //     super.valueIsDisplayed(value, fieldName);
-    // }
 
     @When("I check the I agree to checkbox")
     public void check_checkbox() {

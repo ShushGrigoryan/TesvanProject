@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.681" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="As A user I want to send message and navigate to social media pages" name="Send a message without checking the &quot;I Agree&quot; checkbox and receive an error" time="21.36">
+<system-out><![CDATA[
+Given Home page is open.....................................................passed
+Given The modal is closed...................................................passed
+And I click on the "Contacts" button........................................passed
+And I "ScroolDown" the page.................................................passed
+And I fill in "Full_Name" field with "nameTest" value.......................passed
+And I fill in "Email" field with "email@test.com" value.....................passed
+And I fill in "Phone" field with "123456789" value..........................passed
+And I fill in "Company" field with "testCompany" value......................passed
+And I fill in "Description" field with "testingtestingtestingtesting" value.passed
+And I click on the "Send_Message" button....................................passed
+Then I should see the checking error "Please check and accept our Privacy Policy".passed
+]]></system-out>
+</testcase>
+</testsuite>

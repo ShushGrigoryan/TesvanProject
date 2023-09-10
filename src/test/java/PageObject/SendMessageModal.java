@@ -3,13 +3,11 @@ package PageObject;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import org.openqa.selenium.JavascriptExecutor;
-// import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import BaseClass.BaseClass;
 import Selectors.MessageModalSelectors;
 import PageObject.SendMessageModal;
@@ -48,17 +46,15 @@ public class SendMessageModal extends BaseClass {
     public void clickOnElement(String elementName) {
 
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
-        
-            Elements element = Arrays.stream(Elements.values())
-                    .filter(e -> e.getName().equals(elementName))
-                    .findFirst()
-                    .orElseThrow(() -> new IllegalArgumentException("Unknown element: " + elementName));
-            WebElement elem = wait.until(ExpectedConditions.presenceOfElementLocated(element.getBy()));
-            ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);", elem);
-            elem = wait.until(ExpectedConditions.elementToBeClickable(elem));
-            elem.click();
-        
-     
+
+        Elements element = Arrays.stream(Elements.values())
+                .filter(e -> e.getName().equals(elementName))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Unknown element: " + elementName));
+        WebElement elem = wait.until(ExpectedConditions.presenceOfElementLocated(element.getBy()));
+
+        Actions actions = new Actions(base.driver);
+        actions.moveToElement(elem).click().perform();
 
     }
 
@@ -88,9 +84,10 @@ public class SendMessageModal extends BaseClass {
     }
 
     public String verifyCurrentUrl() {
+
         ArrayList<String> tabs = new ArrayList<>(base.driver.getWindowHandles());
         base.driver.switchTo().window(tabs.get(1));
-        base.driver.navigate().refresh();
+        // base.driver.navigate().refresh();
         String currentUrl = base.driver.getCurrentUrl();
         System.out.println("Current URL: " + currentUrl);
         return currentUrl;

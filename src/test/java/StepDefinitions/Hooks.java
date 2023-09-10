@@ -1,8 +1,9 @@
 package StepDefinitions;
 
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.chrome.ChromeDriver;
+// import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxOptions;
+// import org.openqa.selenium.firefox.FirefoxProfile;
 
 import BaseClass.BaseClass;
 import io.cucumber.java.Before;
@@ -18,22 +19,24 @@ public class Hooks extends BaseClass {
 
     @Before
     public void initDriver() {
+        // System.out.println("Open browser");
+        // System.setProperty("webdriver.gecko.driver",
+        //         "/home/david/Downloads/geckodriver-v0.33.0-linux64/geckodriver");
+        // base.driver = new FirefoxDriver();
+        // base.driver.manage().window().maximize();
+
         System.out.println("Open browser");
-        System.setProperty("webdriver.gecko.driver",
-                "/home/david/Downloads/geckodriver-v0.33.0-linux64/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        base.driver = new ChromeDriver();
 
-        FirefoxOptions options = new FirefoxOptions();
-        FirefoxProfile profile = new FirefoxProfile();
-        options.setProfile(profile);
-
-        base.driver = new FirefoxDriver(options);
         base.driver.manage().window().maximize();
 
     }
 
     @After
     public void teardown() {
-    System.out.println("Close browser");
-    base.driver.quit();
+        System.out.println("Close browser");
+        base.driver.close();
+        base.driver.quit();
     }
 }
