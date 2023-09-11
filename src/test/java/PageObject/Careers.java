@@ -89,23 +89,12 @@ public class Careers extends BaseClass {
     }
 
     public void checkboxFromCareers() {
-        // WebElement checkbox =
-        // base.driver.findElement(CareersSelectors.Checkbox_from_careers);
-        // ((JavascriptExecutor)
-        // base.driver).executeScript("arguments[0].scrollIntoView(true);", checkbox);
-        // Actions actions = new Actions(base.driver);
-        // actions.moveToElement(checkbox).click().perform();
+
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
 
         WebElement checkbox = base.driver.findElement(CareersSelectors.Checkbox_from_careers);
         wait.until(ExpectedConditions.elementToBeClickable(checkbox));
         checkbox.click();
-
-        // ArrayList<String> tabs = new ArrayList<>(base.driver.getWindowHandles());
-        // base.driver.switchTo().window(tabs.get(0));
-        // WebElement checkbox =
-        // base.driver.findElement(CareersSelectors.Checkbox_from_careers);
-        // checkbox.click();
 
         // int xOffset = 18;
         // int yOffset = (int) 17.438;
