@@ -13,6 +13,7 @@ Feature: Careers page functionality
         Then I see that the page URL should be contain the "/company/careers"
 
 
+
     Scenario: Verify Applying for the Sales Specialist Position
 
         When I hover over the "Company" section in the menu bar
