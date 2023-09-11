@@ -8,7 +8,7 @@ Feature: As a user I want to check Home Page functionality
         Given The modal is closed
 
 
-@test
+
     Scenario Outline: Verify Language Selection Functionality
 
         When I click on the "<language>" button

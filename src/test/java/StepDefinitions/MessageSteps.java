@@ -54,7 +54,8 @@ public class MessageSteps extends SendMessageModal {
 
     @Then("I should be navigate on {string} page")
     public void i_should_be_on_social_media_profile_page(String expectedUrl) {
-        Assertions.assertEquals(expectedUrl, super.verifyCurrentUrl());
+        String currentUrl = super.verifyCurrentUrl();
+        Assertions.assertEquals(expectedUrl, currentUrl);
     }
 
 }

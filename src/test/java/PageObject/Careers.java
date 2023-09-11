@@ -4,6 +4,7 @@ import BaseClass.BaseClass;
 import Selectors.CareersSelectors;
 import java.time.Duration;
 import java.util.Arrays;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -75,6 +76,11 @@ public class Careers extends BaseClass {
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
 
+            robot.keyPress(KeyEvent.VK_ALT);
+            robot.keyPress(KeyEvent.VK_TAB);
+            robot.keyRelease(KeyEvent.VK_TAB);
+            robot.keyRelease(KeyEvent.VK_ALT);
+
         } catch (AWTException e) {
             e.printStackTrace();
             System.out.println("break");
@@ -88,14 +94,22 @@ public class Careers extends BaseClass {
         // ((JavascriptExecutor)
         // base.driver).executeScript("arguments[0].scrollIntoView(true);", checkbox);
         // Actions actions = new Actions(base.driver);
-        // actions.moveToElement(checkbox).perform();
-        // checkbox.click();
-        // checkbox.click();
+        // actions.moveToElement(checkbox).click().perform();
+        WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
 
         WebElement checkbox = base.driver.findElement(CareersSelectors.Checkbox_from_careers);
-        ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);", checkbox);
-        checkbox = base.driver.findElement(CareersSelectors.Checkbox_from_careers);
+        wait.until(ExpectedConditions.elementToBeClickable(checkbox));
         checkbox.click();
+
+        // ArrayList<String> tabs = new ArrayList<>(base.driver.getWindowHandles());
+        // base.driver.switchTo().window(tabs.get(0));
+        // WebElement checkbox =
+        // base.driver.findElement(CareersSelectors.Checkbox_from_careers);
+        // checkbox.click();
+
+        // int xOffset = 18;
+        // int yOffset = (int) 17.438;
+        // new Actions(base.driver).moveByOffset(xOffset, yOffset).click().perform();
 
     }
 

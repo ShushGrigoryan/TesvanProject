@@ -7,7 +7,6 @@ Feature: As A user I want to send message and navigate to social media pages
         Given The modal is closed
 
 
-
     Scenario Outline: Verify Social Media Navigation from Contact
 
         When I click on the "Contacts" button

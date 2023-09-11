@@ -59,7 +59,7 @@ public class SendMessageModal extends BaseClass {
     }
 
     public boolean Message(String successMessage) {
-        base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         return base.driver
                 .findElement(MessageModalSelectors.successMessage(successMessage)).isDisplayed();
 
@@ -84,14 +84,12 @@ public class SendMessageModal extends BaseClass {
     }
 
     public String verifyCurrentUrl() {
-
         ArrayList<String> tabs = new ArrayList<>(base.driver.getWindowHandles());
         base.driver.switchTo().window(tabs.get(1));
-        // base.driver.navigate().refresh();
+        base.driver.navigate().refresh();
         String currentUrl = base.driver.getCurrentUrl();
         System.out.println("Current URL: " + currentUrl);
         return currentUrl;
-
     }
 
 }

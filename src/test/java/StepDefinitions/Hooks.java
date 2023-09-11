@@ -36,7 +36,7 @@ public class Hooks extends BaseClass {
     @After
     public void teardown() {
         System.out.println("Close browser");
-        base.driver.close();
+        // base.driver.close();
         base.driver.quit();
     }
 }
