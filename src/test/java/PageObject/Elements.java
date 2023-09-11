@@ -44,7 +44,7 @@ public enum Elements {
         CAREERS_BUTTON("Careers", By.xpath("//div[2]/nav[1]/div[1]/div[1]/div[1]/div[2]/a[1]")),
         SCROOL_DOWN_FROM_CAREERS("scroolDown", By.xpath("//button[@id='headerButton']")),
         MORE_DETAILS("More_Details",
-                        By.cssSelector("div[class='Careers_row__PNLZ6'] button[type='button']")),
+                        By.xpath("//div[@class='Careers_row__PNLZ6']//button[@type='button'][normalize-space()='More Details']")),
         SCROOL_DOWN_FROM_POSITION("scrool_down", By.xpath("//div[@class='HeaderContent_scrollIcon__FWW7K']")),
         FULL_NAME_FIELD_FROM_CAREERS("fullName_", By.xpath(
                         "//div[@class='CareerMainContent_container__30LDD']//div[1]//label[2]//div[1]//input[1]")),
