@@ -16,7 +16,6 @@ public class MessageSteps extends SendMessageModal {
         super.fillField(fieldName, value);
     }
 
-
     @When("I check the I agree to checkbox")
     public void check_checkbox() {
         super.checkboxFromModal();
@@ -29,8 +28,7 @@ public class MessageSteps extends SendMessageModal {
 
     @Then("I should see the succsessfuly message {string}")
     public void verify_successful_message(String successMessage) {
-        Assertions.assertTrue(super.Message(successMessage));
-
+        Assertions.assertTrue(super.isMessageVisible(successMessage));
     }
 
     @Then("I should see the input error {string}")
@@ -50,7 +48,6 @@ public class MessageSteps extends SendMessageModal {
         String actualErrorMessage = super.checkboxError(expectedErrorMessage);
         Assertions.assertEquals(expectedErrorMessage, actualErrorMessage);
     }
-
 
     @Then("I should be navigate on {string} page")
     public void i_should_be_on_social_media_profile_page(String expectedUrl) {

@@ -1,0 +1,197 @@
+{
+  "uid" : "ff3a0386894eeb3b",
+  "name" : "Verify page content in selected language",
+  "fullName" : "src/test/features/Languages.feature:18",
+  "historyId" : "435fbfdf4bcddf5003650db73e775711",
+  "time" : {
+    "start" : 1694251781277,
+    "stop" : 1694251816425,
+    "duration" : 35148
+  },
+  "status" : "passed",
+  "statusMessage" : "Undefined Step. Please add step definition",
+  "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694251781283,
+      "stop" : 1694251791816,
+      "duration" : 10533
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "Undefined Step. Please add step definition",
+    "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694251791826,
+        "stop" : 1694251809418,
+        "duration" : 17592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694251809426,
+        "stop" : 1694251810450,
+        "duration" : 1024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"ENG\" button",
+      "time" : {
+        "start" : 1694251810454,
+        "stop" : 1694251811157,
+        "duration" : 703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"Arm\" language",
+      "time" : {
+        "start" : 1694251811217,
+        "stop" : 1694251814365,
+        "duration" : 3148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the  \"/am\"",
+      "time" : {
+        "start" : 1694251814367,
+        "stop" : 1694251814384,
+        "duration" : 17
+      },
+      "status" : "unknown",
+      "statusMessage" : "Undefined Step. Please add step definition",
+      "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694251814386,
+      "stop" : 1694251816409,
+      "duration" : 2023
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "63984@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Languages_feature.As a user I want to change Language on Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_language_URL",
+    "value" : "/am"
+  }, {
+    "name" : "language",
+    "value" : "ENG"
+  }, {
+    "name" : "selected_language",
+    "value" : "Arm"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "ff3a0386894eeb3b.json",
+  "parameterValues" : [ "/am", "ENG", "Arm" ]
+}

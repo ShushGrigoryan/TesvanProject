@@ -1,0 +1,158 @@
+{
+  "uid" : "16a9053ecf0e49ca",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "fullName" : "src/test/features/SendMessageModal.feature:68",
+  "historyId" : "4f21d716e579bc2dd76ca38183f5277b",
+  "time" : {
+    "start" : 1694274243607,
+    "stop" : 1694274280689,
+    "duration" : 37082
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694274243611,
+      "stop" : 1694274250141,
+      "duration" : 6530
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694274250145,
+        "stop" : 1694274267268,
+        "duration" : 17123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"upwork\" button",
+      "time" : {
+        "start" : 1694274267283,
+        "stop" : 1694274268539,
+        "duration" : 1256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.upwork.com/ag/tesvan/\" page",
+      "time" : {
+        "start" : 1694274268541,
+        "stop" : 1694274278471,
+        "duration" : 9930
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694274278472,
+      "stop" : 1694274280685,
+      "duration" : 2213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "13058@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact Information"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact Information"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/SendMessageModal.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.SendMessageModal_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.upwork.com/ag/tesvan/"
+  }, {
+    "name" : "social_media",
+    "value" : "upwork"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "16a9053ecf0e49ca.json",
+  "parameterValues" : [ "https://www.upwork.com/ag/tesvan/", "upwork" ]
+}

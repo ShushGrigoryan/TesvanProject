@@ -1,0 +1,242 @@
+{
+  "uid" : "a9f2ae6e3176a185",
+  "name" : "Send a message with valid data",
+  "fullName" : "src/test/features/SendMessageModal.feature:9",
+  "historyId" : "f7f95b0c74eb2ac13566b7dec2d380b6",
+  "time" : {
+    "start" : 1694198851397,
+    "stop" : 1694198874122,
+    "duration" : 22725
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694198851405,
+      "stop" : 1694198855003,
+      "duration" : 3598
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694198855005,
+        "stop" : 1694198871385,
+        "duration" : 16380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"fullName\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694198871390,
+        "stop" : 1694198871623,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"email\" field with \"email@test.com\" value",
+      "time" : {
+        "start" : 1694198871625,
+        "stop" : 1694198871786,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"phone\" field with \"123456789\" value",
+      "time" : {
+        "start" : 1694198871787,
+        "stop" : 1694198871907,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"company\" field with \"testCompany\" value",
+      "time" : {
+        "start" : 1694198871908,
+        "stop" : 1694198872017,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"description\" field with \"testingtestingtestingtesting\" value",
+      "time" : {
+        "start" : 1694198872018,
+        "stop" : 1694198872167,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I check the I agree to checkbox",
+      "time" : {
+        "start" : 1694198872168,
+        "stop" : 1694198872469,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"send_message\" button",
+      "time" : {
+        "start" : 1694198872470,
+        "stop" : 1694198872772,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the succsessfuly message \"Your message has been sent successfully.\"",
+      "time" : {
+        "start" : 1694198872773,
+        "stop" : 1694198872839,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694198872840,
+      "stop" : 1694198874118,
+      "duration" : 1278
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "46391@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/SendMessageModal.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.SendMessageModal_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "a9f2ae6e3176a185.json",
+  "parameterValues" : [ ]
+}

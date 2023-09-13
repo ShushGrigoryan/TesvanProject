@@ -1,0 +1,158 @@
+{
+  "uid" : "f361827528009fe5",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "fullName" : "src/test/features/SendMessageModal.feature:68",
+  "historyId" : "4f21d716e579bc2dd76ca38183f5277b",
+  "time" : {
+    "start" : 1694415117153,
+    "stop" : 1694415136965,
+    "duration" : 19812
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694415117154,
+      "stop" : 1694415117951,
+      "duration" : 797
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694415117953,
+        "stop" : 1694415134230,
+        "duration" : 16277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"linkedin\" button",
+      "time" : {
+        "start" : 1694415134236,
+        "stop" : 1694415134523,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.linkedin.com/company/tesvan\" page",
+      "time" : {
+        "start" : 1694415134524,
+        "stop" : 1694415136792,
+        "duration" : 2268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694415136793,
+      "stop" : 1694415136964,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "15510@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact Information"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact Information"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/SendMessageModal.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.SendMessageModal_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.linkedin.com/company/tesvan"
+  }, {
+    "name" : "social_media",
+    "value" : "linkedin"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "f361827528009fe5.json",
+  "parameterValues" : [ "https://www.linkedin.com/company/tesvan", "linkedin" ]
+}

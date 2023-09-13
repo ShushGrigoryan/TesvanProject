@@ -1,0 +1,203 @@
+{
+  "uid" : "fcce230d3537fbcd",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:22",
+  "historyId" : "4075bbcbb7d9d11522a4d988a62ca9ee",
+  "time" : {
+    "start" : 1694415829849,
+    "stop" : 1694415853555,
+    "duration" : 23706
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694415829852,
+      "stop" : 1694415831488,
+      "duration" : 1636
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694415831489,
+        "stop" : 1694415848222,
+        "duration" : 16733
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694415848223,
+        "stop" : 1694415849766,
+        "duration" : 1543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694415849769,
+        "stop" : 1694415850101,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I \"ScroolDown\" the page",
+      "time" : {
+        "start" : 1694415850101,
+        "stop" : 1694415851224,
+        "duration" : 1123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Facebook\" button",
+      "time" : {
+        "start" : 1694415851225,
+        "stop" : 1694415851488,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.facebook.com/tesvanllc\" page",
+      "time" : {
+        "start" : 1694415851492,
+        "stop" : 1694415853174,
+        "duration" : 1682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694415853175,
+      "stop" : 1694415853554,
+      "duration" : 379
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "22829@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.facebook.com/tesvanllc"
+  }, {
+    "name" : "social_media",
+    "value" : "Facebook"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "fcce230d3537fbcd.json",
+  "parameterValues" : [ "https://www.facebook.com/tesvanllc", "Facebook" ]
+}

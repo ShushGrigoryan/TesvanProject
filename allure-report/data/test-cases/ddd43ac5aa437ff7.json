@@ -1,0 +1,368 @@
+{
+  "uid" : "ddd43ac5aa437ff7",
+  "name" : "Verify Applying for the Sales Specialist Position",
+  "fullName" : "src/test/features/Careers.feature:17",
+  "historyId" : "e7dd6dc8ef3c7506c67f3a07284a24e9",
+  "time" : {
+    "start" : 1694378899038,
+    "stop" : 1694378945685,
+    "duration" : 46647
+  },
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)\n\tat PageObject.Careers.checkboxFromCareers(Careers.java:66)\n\tat StepDefinitions.CareersSteps.check_checkbox(CareersSteps.java:38)\n\tat ✽.I check the I agree to checkbox from Careers(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:31)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694378899043,
+      "stop" : 1694378901180,
+      "duration" : 2137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)\n\tat PageObject.Careers.checkboxFromCareers(Careers.java:66)\n\tat StepDefinitions.CareersSteps.check_checkbox(CareersSteps.java:38)\n\tat ✽.I check the I agree to checkbox from Careers(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:31)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694378901186,
+        "stop" : 1694378917720,
+        "duration" : 16534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694378917724,
+        "stop" : 1694378918753,
+        "duration" : 1029
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I hover over the \"Company\" section in the menu bar",
+      "time" : {
+        "start" : 1694378918755,
+        "stop" : 1694378918948,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Careers\" button from dropdown",
+      "time" : {
+        "start" : 1694378918954,
+        "stop" : 1694378919070,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/company/careers\"",
+      "time" : {
+        "start" : 1694378919071,
+        "stop" : 1694378920136,
+        "duration" : 1065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I \"scroolDown\" page on",
+      "time" : {
+        "start" : 1694378920138,
+        "stop" : 1694378920601,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"More_Details\" button",
+      "time" : {
+        "start" : 1694378920604,
+        "stop" : 1694378920827,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/company/careers/sales_specialist\"",
+      "time" : {
+        "start" : 1694378920830,
+        "stop" : 1694378922487,
+        "duration" : 1657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I \"scrool_down\" page on",
+      "time" : {
+        "start" : 1694378922488,
+        "stop" : 1694378922808,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"fullName_\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694378922808,
+        "stop" : 1694378923014,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"email_\" field with \"test@test.com\" value",
+      "time" : {
+        "start" : 1694378923015,
+        "stop" : 1694378923158,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"phone_\" field with \"12345678910\" value",
+      "time" : {
+        "start" : 1694378923160,
+        "stop" : 1694378923298,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"upload\" button",
+      "time" : {
+        "start" : 1694378923299,
+        "stop" : 1694378923646,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I attach file",
+      "time" : {
+        "start" : 1694378923648,
+        "stop" : 1694378924901,
+        "duration" : 1253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I check the I agree to checkbox from Careers",
+      "time" : {
+        "start" : 1694378924902,
+        "stop" : 1694378945551,
+        "duration" : 20649
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"__next\"]/div[6]/div/div/div/div[2]/div[2]/form/div[6]/div (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 520d4e38c6e149a1623b14d11ea4f8fa\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)\n\tat PageObject.Careers.checkboxFromCareers(Careers.java:66)\n\tat StepDefinitions.CareersSteps.check_checkbox(CareersSteps.java:38)\n\tat ✽.I check the I agree to checkbox from Careers(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:31)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I click on the \"Apply\" button",
+      "time" : {
+        "start" : 1694378945555,
+        "stop" : 1694378945556,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the succses message \"Success\"",
+      "time" : {
+        "start" : 1694378945557,
+        "stop" : 1694378945557,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694378945558,
+      "stop" : 1694378945670,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "241233@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "story",
+    "value" : "Verify Applying for the Sales Specialist Position"
+  }, {
+    "name" : "suite",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Applying for the Sales Specialist Position"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Careers_feature.Careers page functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "ddd43ac5aa437ff7.json",
+  "parameterValues" : [ ]
+}

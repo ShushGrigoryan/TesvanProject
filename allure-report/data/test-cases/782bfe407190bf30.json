@@ -1,0 +1,188 @@
+{
+  "uid" : "782bfe407190bf30",
+  "name" : "Verify accessing the Careers page",
+  "fullName" : "src/test/features/Careers.feature:9",
+  "historyId" : "52ec11a8a7f873df07946061af812751",
+  "time" : {
+    "start" : 1694268358915,
+    "stop" : 1694268381694,
+    "duration" : 22779
+  },
+  "status" : "failed",
+  "statusMessage" : "expected: <true> but was: <false>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)\n\tat StepDefinitions.LanguagesSteps.iSeeThatThePageURLShouldContain(LanguagesSteps.java:40)\n\tat ✽.I see that the page URL should be contain the \"/company/careers\"(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:13)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694268358920,
+      "stop" : 1694268362782,
+      "duration" : 3862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected: <true> but was: <false>",
+    "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)\n\tat StepDefinitions.LanguagesSteps.iSeeThatThePageURLShouldContain(LanguagesSteps.java:40)\n\tat ✽.I see that the page URL should be contain the \"/company/careers\"(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:13)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694268362788,
+        "stop" : 1694268379385,
+        "duration" : 16597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694268379386,
+        "stop" : 1694268380429,
+        "duration" : 1043
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I hover over the \"Company\" section in the menu bar",
+      "time" : {
+        "start" : 1694268380432,
+        "stop" : 1694268380634,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Careers\" button from dropdown",
+      "time" : {
+        "start" : 1694268380645,
+        "stop" : 1694268380666,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/company/careers\"",
+      "time" : {
+        "start" : 1694268380669,
+        "stop" : 1694268380689,
+        "duration" : 20
+      },
+      "status" : "failed",
+      "statusMessage" : "expected: <true> but was: <false>",
+      "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)\n\tat StepDefinitions.LanguagesSteps.iSeeThatThePageURLShouldContain(LanguagesSteps.java:40)\n\tat ✽.I see that the page URL should be contain the \"/company/careers\"(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature:13)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694268380693,
+      "stop" : 1694268381689,
+      "duration" : 996
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "158969@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "story",
+    "value" : "Verify accessing the Careers page"
+  }, {
+    "name" : "suite",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify accessing the Careers page"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Careers_feature.Careers page functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "782bfe407190bf30.json",
+  "parameterValues" : [ ]
+}

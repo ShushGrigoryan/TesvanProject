@@ -1,0 +1,310 @@
+{
+  "uid" : "c93f7d45bf575220",
+  "name" : "Send a message with invalid email format data",
+  "fullName" : "src/test/features/SendMessageModal.feature:22",
+  "historyId" : "99d03b346b670ab711943b82ab5060ae",
+  "time" : {
+    "start" : 1694414480358,
+    "stop" : 1694414499166,
+    "duration" : 18808
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694414480358,
+      "stop" : 1694414481206,
+      "duration" : 848
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694414481208,
+        "stop" : 1694414497547,
+        "duration" : 16339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"fullName\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694414497548,
+        "stop" : 1694414497793,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"email\" field with \"emailtest.com\" value",
+      "time" : {
+        "start" : 1694414497794,
+        "stop" : 1694414497998,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"phone\" field with \"123456789\" value",
+      "time" : {
+        "start" : 1694414497999,
+        "stop" : 1694414498184,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"company\" field with \"testCompany\" value",
+      "time" : {
+        "start" : 1694414498193,
+        "stop" : 1694414498366,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"description\" field with \"testingtestingtestingtesting\" value",
+      "time" : {
+        "start" : 1694414498367,
+        "stop" : 1694414498599,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I check the I agree to checkbox",
+      "time" : {
+        "start" : 1694414498601,
+        "stop" : 1694414498711,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"send_message\" button",
+      "time" : {
+        "start" : 1694414498712,
+        "stop" : 1694414498902,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the input error \"Email is invalid\"",
+      "time" : {
+        "start" : 1694414498906,
+        "stop" : 1694414498975,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694414498976,
+      "stop" : 1694414499166,
+      "duration" : 190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "9506@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Send a message with invalid email format data"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Send a message with invalid email format data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/SendMessageModal.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.SendMessageModal_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "13d44deaa8134802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694379720999,
+        "stop" : 1694379742162,
+        "duration" : 21163
+      }
+    }, {
+      "uid" : "1c660c9a4723352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694337406973,
+        "stop" : 1694337441249,
+        "duration" : 34276
+      }
+    }, {
+      "uid" : "e5bb337174904193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694334695489,
+        "stop" : 1694334728644,
+        "duration" : 33155
+      }
+    }, {
+      "uid" : "e08de660fe85ef86",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [a82f0d9d-e15e-4330-9e56-41694276bb8e, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:8397, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7126, moz:profile: /tmp/rust_mozprofileEogunC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:8397/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a82f0d9d-e15e-4330-9e56-41694276bb8e",
+      "time" : {
+        "start" : 1694331187526,
+        "stop" : 1694331224061,
+        "duration" : 36535
+      }
+    }, {
+      "uid" : "ed371e5ccd8d6b80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694285190749,
+        "stop" : 1694285212709,
+        "duration" : 21960
+      }
+    }, {
+      "uid" : "115803ce64a79e17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694198927988,
+        "stop" : 1694198951294,
+        "duration" : 23306
+      }
+    }, {
+      "uid" : "f824c249f037b7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694198893773,
+        "stop" : 1694198916696,
+        "duration" : 22923
+      }
+    }, {
+      "uid" : "c0cfd264b5be3a9",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/label[1]/div[1]/input[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [6ba0d665-b7dd-4f01-ae4a-4c4df97079ba, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/label[1]/div[1]/input[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16589, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 20079, moz:profile: /tmp/rust_mozprofilemnuvG7, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16589/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6ba0d665-b7dd-4f01-ae4a-4c4df97079ba",
+      "time" : {
+        "start" : 1694193872515,
+        "stop" : 1694193906040,
+        "duration" : 33525
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "c93f7d45bf575220.json",
+  "parameterValues" : [ ]
+}

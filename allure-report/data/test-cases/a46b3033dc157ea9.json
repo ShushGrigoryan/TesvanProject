@@ -1,0 +1,293 @@
+{
+  "uid" : "a46b3033dc157ea9",
+  "name" : "Send a message with valid data",
+  "fullName" : "src/test/features/Contacts.feature:13",
+  "historyId" : "882e5a0f8329582bf310c653248ddda8",
+  "time" : {
+    "start" : 1694201316277,
+    "stop" : 1694201344853,
+    "duration" : 28576
+  },
+  "status" : "broken",
+  "statusMessage" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:26)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694201316280,
+      "stop" : 1694201319666,
+      "duration" : 3386
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:26)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694201319668,
+        "stop" : 1694201335930,
+        "duration" : 16262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694201335931,
+        "stop" : 1694201336950,
+        "duration" : 1019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694201336952,
+        "stop" : 1694201337326,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I scrool down page",
+      "time" : {
+        "start" : 1694201337328,
+        "stop" : 1694201337366,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Full_Name\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694201337367,
+        "stop" : 1694201338112,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Email\" field with \"email@test.com\" value",
+      "time" : {
+        "start" : 1694201338113,
+        "stop" : 1694201338192,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Phone\" field with \"123456789\" value",
+      "time" : {
+        "start" : 1694201338194,
+        "stop" : 1694201338275,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Company\" field with \"testCompany\" value",
+      "time" : {
+        "start" : 1694201338276,
+        "stop" : 1694201338346,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Description\" field with \"testingtestingtestingtesting\" value",
+      "time" : {
+        "start" : 1694201338346,
+        "stop" : 1694201338447,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I check the I agree to checkbox From Contacts",
+      "time" : {
+        "start" : 1694201338448,
+        "stop" : 1694201338728,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Send_Message\" button",
+      "time" : {
+        "start" : 1694201338729,
+        "stop" : 1694201338831,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page",
+      "time" : {
+        "start" : 1694201338832,
+        "stop" : 1694201343869,
+        "duration" : 5037
+      },
+      "status" : "broken",
+      "statusMessage" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:26)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694201343877,
+      "stop" : 1694201344840,
+      "duration" : 963
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "65481@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "a46b3033dc157ea9.json",
+  "parameterValues" : [ ]
+}

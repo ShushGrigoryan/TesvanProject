@@ -1,0 +1,450 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032",
+      "children" : [ {
+        "name" : "Send a message with valid data",
+        "uid" : "cf02509f5fee8553",
+        "parentUid" : "09442f06eb3cd0fc1901659a974fed77",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694242600024,
+          "stop" : 1694242631103,
+          "duration" : 31079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 30,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09442f06eb3cd0fc1901659a974fed77"
+    }, {
+      "name" : "Unable to locate element: //p[normalize-space()='Email is invalid']\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [bf578a3f-aed4-41e7-ab5f-e1cefe66e6db, findElement {using=xpath, value=//p[normalize-space()='Email is invalid']}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:26559, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 11656, moz:profile: /tmp/rust_mozprofiled9H1S4, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:26559/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bf578a3f-aed4-41e7-ab5f-e1cefe66e6db",
+      "children" : [ {
+        "name" : "Send a message with invalid email format data",
+        "uid" : "96bff27b7d6bd640",
+        "parentUid" : "91a83bd5002ea4511632fe7bfc3e7545",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694243219658,
+          "stop" : 1694243250897,
+          "duration" : 31239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91a83bd5002ea4511632fe7bfc3e7545"
+    }, {
+      "name" : "Failed to decode response from marionette\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [872b7a75-0159-48ba-8394-37e694e446ce, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18585, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 83582, moz:profile: /tmp/rust_mozprofileHak31R, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18585/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 872b7a75-0159-48ba-8394-37e694e446ce",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "e651c9b3d3cd4a00",
+        "parentUid" : "8e0f5f10e13018cd7ddcb364b5991798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694255132080,
+          "stop" : 1694255138835,
+          "duration" : 6755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+      } ],
+      "uid" : "8e0f5f10e13018cd7ddcb364b5991798"
+    }, {
+      "name" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83",
+      "children" : [ {
+        "name" : "Verify Language Selection Functionality",
+        "uid" : "aff6575770e45485",
+        "parentUid" : "e363fef7b3d6cd8cab19f2200f6b2e10",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694256309267,
+          "stop" : 1694256329563,
+          "duration" : 20296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 21,
+        "retriesStatusChange" : true,
+        "parameters" : [ "/ru", "ENG", "Ru" ]
+      } ],
+      "uid" : "e363fef7b3d6cd8cab19f2200f6b2e10"
+    }, {
+      "name" : "Element <button class=\"Button_button__k9F7A Button_yellow__zUx2d ContactForm_save__nKOLv undefined Button_eng__VMlwB\" type=\"submit\"> is not clickable at point (530,29) because another element <div class=\"Logo_logo__oGIB8 NavMenu_logo___kegW\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [4c046f2b-b872-440e-800a-7297264f7a10, clickElement {id=e77cb314-3869-4f0b-9f65-c7ca27db2bcd}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16769, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 115435, moz:profile: /tmp/rust_mozprofilewueAGB, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16769/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (4c046f2b-b872-440e-800a-7297264f7a10)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/button[1]]\nSession ID: 4c046f2b-b872-440e-800a-7297264f7a10",
+      "children" : [ {
+        "name" : "Send a message with valid data",
+        "uid" : "f748ffd9997cd187",
+        "parentUid" : "0183761d4eb7c50f5b870fdc6c053de8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694260019471,
+          "stop" : 1694260043458,
+          "duration" : 23987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0183761d4eb7c50f5b870fdc6c053de8"
+    }, {
+      "name" : "Element <button class=\"Button_button__k9F7A Button_yellow__zUx2d ContactForm_save__nKOLv undefined Button_eng__VMlwB\" type=\"submit\"> is not clickable at point (530,30) because another element <div class=\"Logo_logo__oGIB8 NavMenu_logo___kegW\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [74adb750-58ef-4c6b-ac34-e63d9dd9be22, clickElement {id=0071c730-51a8-42bd-8641-7ee55e9f3a2c}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:21262, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 126915, moz:profile: /tmp/rust_mozprofiletsqyZl, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:21262/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (74adb750-58ef-4c6b-ac34-e63d9dd9be22)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/button[1]]\nSession ID: 74adb750-58ef-4c6b-ac34-e63d9dd9be22",
+      "children" : [ {
+        "name" : "Send a message with valid data",
+        "uid" : "d84212c94da730ff",
+        "parentUid" : "2a8faa637b96fab4928cd14fe5208b5e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694262325247,
+          "stop" : 1694262351815,
+          "duration" : 26568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a8faa637b96fab4928cd14fe5208b5e"
+    }, {
+      "name" : "Unknown element: <language>",
+      "children" : [ {
+        "name" : "User selects some language and switches back",
+        "uid" : "4190e465fb53b2b0",
+        "parentUid" : "96153c45cca1d974407b652cbd1c4774",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694271644616,
+          "stop" : 1694271665145,
+          "duration" : 20529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "/am", "/en", "ENG", "Arm" ]
+      } ],
+      "uid" : "96153c45cca1d974407b652cbd1c4774"
+    }, {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "User selects some language and switches back",
+        "uid" : "25e513556d371f4f",
+        "parentUid" : "f07f3ce6253aeded54b7904addcf34fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694272549642,
+          "stop" : 1694272588062,
+          "duration" : 38420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "/am", "ENG", "/en", "Arm" ]
+      }, {
+        "name" : "User selects some language and switches back",
+        "uid" : "e9b63a89fdeb49cf",
+        "parentUid" : "f07f3ce6253aeded54b7904addcf34fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694272588240,
+          "stop" : 1694272624761,
+          "duration" : 36521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "/ru", "ENG", "/en", "Ru" ]
+      } ],
+      "uid" : "f07f3ce6253aeded54b7904addcf34fa"
+    }, {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: //html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/ul[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Verify Language Selection Functionality",
+        "uid" : "b7e258607ce36c43",
+        "parentUid" : "a325588ef7e2071f963a363a832f2409",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694273599764,
+          "stop" : 1694273633475,
+          "duration" : 33711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "/am", "ENG", "Arm" ]
+      } ],
+      "uid" : "a325588ef7e2071f963a363a832f2409"
+    }, {
+      "name" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [c55fc544-fe02-49cd-8886-e38a2d01e961, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3252, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 9696, moz:profile: /tmp/rust_mozprofilenaa70W, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3252/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c55fc544-fe02-49cd-8886-e38a2d01e961",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact Information",
+        "uid" : "65b9e18c484731c2",
+        "parentUid" : "2eb3bb7c1d0b37cbfd80e986b7307add",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694273906170,
+          "stop" : 1694273919848,
+          "duration" : 13678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "https://www.facebook.com/tesvanllc", "facebook" ]
+      } ],
+      "uid" : "2eb3bb7c1d0b37cbfd80e986b7307add"
+    }, {
+      "name" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [1c4500ae-0588-4a65-a813-276edcd0f3e4, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:24481, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 31897, moz:profile: /tmp/rust_mozprofile2oU6Yg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:24481/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1c4500ae-0588-4a65-a813-276edcd0f3e4",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "584c9418eb5cc2c8",
+        "parentUid" : "0212999458cb5d107d1e4c698c6cd448",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694276569045,
+          "stop" : 1694276578126,
+          "duration" : 9081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.facebook.com/tesvanllc", "Facebook" ]
+      } ],
+      "uid" : "0212999458cb5d107d1e4c698c6cd448"
+    }, {
+      "name" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [e2311b0c-d8c2-44c4-b2d2-45b829a7ecae, clickElement {id=ece6e857-78c3-4bd9-a970-a0fd523abee8}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:28634, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 33555, moz:profile: /tmp/rust_mozprofile4PPWa8, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:28634/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (e2311b0c-d8c2-44c4-b2d2-45b829a7ecae)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: e2311b0c-d8c2-44c4-b2d2-45b829a7ecae",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "f713209c73d71fb5",
+        "parentUid" : "18f58395c0284f391444a6c023fd9c42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694276661848,
+          "stop" : 1694276686468,
+          "duration" : 24620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.upwork.com/ag/tesvan/", "Upwork" ]
+      } ],
+      "uid" : "18f58395c0284f391444a6c023fd9c42"
+    }, {
+      "name" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [358d546b-4262-4f60-9c7c-7b64378c5bed, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:22214, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 33973, moz:profile: /tmp/rust_mozprofile2M4xk7, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:22214/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 358d546b-4262-4f60-9c7c-7b64378c5bed",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "a972992717d2e41",
+        "parentUid" : "d4bbb6981bfc957f49b8f4a1508e94d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694276686575,
+          "stop" : 1694276694672,
+          "duration" : 8097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+      } ],
+      "uid" : "d4bbb6981bfc957f49b8f4a1508e94d2"
+    }, {
+      "name" : "Element <button class=\"Button_button__k9F7A Button_yellow__zUx2d ContactForm_save__nKOLv undefined Button_eng__VMlwB\" type=\"submit\"> is not clickable at point (530,30) because another element <div class=\"Logo_logo__oGIB8 NavMenu_logo___kegW\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [cbd4e660-5a4b-4ef6-a754-333881d0d3a8, clickElement {id=26a21fc9-bf97-4d6e-af42-712b929331ab}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16486, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 98952, moz:profile: /tmp/rust_mozprofileHSDv6h, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16486/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (cbd4e660-5a4b-4ef6-a754-333881d0d3a8)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/button[1]]\nSession ID: cbd4e660-5a4b-4ef6-a754-333881d0d3a8",
+      "children" : [ {
+        "name" : "Send a message with valid data",
+        "uid" : "af636bf462ca290c",
+        "parentUid" : "89180ed285b6f238e80fdc70f75b05db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694286157487,
+          "stop" : 1694286183674,
+          "duration" : 26187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89180ed285b6f238e80fdc70f75b05db"
+    }, {
+      "name" : "Unable to locate element: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [34cbf5e9-7e0d-40d6-a8b2-c0fc806a6e44, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:26266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 5696, moz:profile: /tmp/rust_mozprofile0vqoj0, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:26266/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 34cbf5e9-7e0d-40d6-a8b2-c0fc806a6e44",
+      "children" : [ {
+        "name" : "Verify Applying for the Sales Specialist Position",
+        "uid" : "a819480b8cbbdb06",
+        "parentUid" : "1a6b4c8babf2c430550c017682911b65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694331014762,
+          "stop" : 1694331101890,
+          "duration" : 87128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a6b4c8babf2c430550c017682911b65"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "5e1de53a762a7ba7",
+        "parentUid" : "e329b0e89d6be6fcf1f7b26e7257ec12",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694380325706,
+          "stop" : 1694380343411,
+          "duration" : 17705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.upwork.com/ag/tesvan/", "Upwork" ]
+      } ],
+      "uid" : "e329b0e89d6be6fcf1f7b26e7257ec12"
+    }, {
+      "name" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "d58240fa488eb2e1",
+        "parentUid" : "afe114391203fbceb3e1eca0f18c7db5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694380343601,
+          "stop" : 1694380347597,
+          "duration" : 3996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+      } ],
+      "uid" : "afe114391203fbceb3e1eca0f18c7db5"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81",
+      "children" : [ {
+        "name" : "Verify Social Media Navigation from Contact",
+        "uid" : "2c677a0860f8b203",
+        "parentUid" : "a5f1dca1b6b138157390715e82d18dd3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694380347631,
+          "stop" : 1694380363676,
+          "duration" : 16045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 18,
+        "retriesStatusChange" : true,
+        "parameters" : [ "https://www.facebook.com/tesvanllc", "Facebook" ]
+      } ],
+      "uid" : "a5f1dca1b6b138157390715e82d18dd3"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'ResponseMessages_container__wVOwE')]//h1[contains(text(), 'Success')] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:32839/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d1e311eff117ddbe2f7f8b4b407ce78",
+      "children" : [ {
+        "name" : "Verify Applying for the Sales Specialist Position",
+        "uid" : "9737af65b6752391",
+        "parentUid" : "54d6d6e282a8dfcca3fbe23e1145014a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694424056016,
+          "stop" : 1694424091294,
+          "duration" : 35278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 154,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54d6d6e282a8dfcca3fbe23e1145014a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "Changing the language on the page",
+        "uid" : "684f9e9c86e28ba6",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694244197914,
+          "stop" : 1694244229137,
+          "duration" : 31223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

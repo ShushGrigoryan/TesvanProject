@@ -1,0 +1,377 @@
+{
+  "uid" : "2c677a0860f8b203",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:25",
+  "historyId" : "6417cc40cca6692c51f66b97095e5f5e",
+  "time" : {
+    "start" : 1694380347631,
+    "stop" : 1694380363676,
+    "duration" : 16045
+  },
+  "status" : "broken",
+  "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694380347632,
+      "stop" : 1694380349123,
+      "duration" : 1491
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694380349126,
+        "stop" : 1694380353292,
+        "duration" : 4166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694380353293,
+        "stop" : 1694380363392,
+        "duration" : 10099
+      },
+      "status" : "broken",
+      "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808df5abaa5b2406e056ad1ba517ed81, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46109/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808df5abaa5b2406e056ad1ba517ed81\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694380363400,
+        "stop" : 1694380363406,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"ScroolDown\" button",
+      "time" : {
+        "start" : 1694380363407,
+        "stop" : 1694380363411,
+        "duration" : 4
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Facebook\" button",
+      "time" : {
+        "start" : 1694380363413,
+        "stop" : 1694380363420,
+        "duration" : 7
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.facebook.com/tesvanllc\" page",
+      "time" : {
+        "start" : 1694380363424,
+        "stop" : 1694380363427,
+        "duration" : 3
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694380363429,
+      "stop" : 1694380363672,
+      "duration" : 243
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "253950@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.facebook.com/tesvanllc"
+  }, {
+    "name" : "social_media",
+    "value" : "Facebook"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f07e213e855acd63",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694380155686,
+        "stop" : 1694380159520,
+        "duration" : 3834
+      }
+    }, {
+      "uid" : "ea86c644ac3306d6",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"HeaderContent_scrollIcon__FWW7K\"> is not clickable at point (924,8) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [4a232d89-8d87-4d72-8d7c-81de9ff0fddc, clickElement {id=5b3ff24f-4088-46ed-a460-a44128683f42}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:11615, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 102134, moz:profile: /tmp/rust_mozprofileXsd11a, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:11615/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (4a232d89-8d87-4d72-8d7c-81de9ff0fddc)] -> xpath: //div[contains(@class, 'HeaderContent_scrollIcon__')]]\nSession ID: 4a232d89-8d87-4d72-8d7c-81de9ff0fddc",
+      "time" : {
+        "start" : 1694286438929,
+        "stop" : 1694286461328,
+        "duration" : 22399
+      }
+    }, {
+      "uid" : "84de49427ee3cc96",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [40ca209c-c30d-422a-87e2-067cb99d1190, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10395, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 100396, moz:profile: /tmp/rust_mozprofileA55s50, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10395/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 40ca209c-c30d-422a-87e2-067cb99d1190",
+      "time" : {
+        "start" : 1694286267300,
+        "stop" : 1694286279616,
+        "duration" : 12316
+      }
+    }, {
+      "uid" : "3b2482dc7785735e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[3]/div[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1694285877151,
+        "stop" : 1694285910080,
+        "duration" : 32929
+      }
+    }, {
+      "uid" : "852d2ad5e6663b60",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"HeaderContent_scrollIcon__FWW7K\"> is not clickable at point (924,8) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [02916f52-d304-4195-8671-013be748d123, clickElement {id=5fa51fa2-ea9c-496d-9596-d495dc190c93}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7304, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 94545, moz:profile: /tmp/rust_mozprofileOBleuG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7304/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (02916f52-d304-4195-8671-013be748d123)] -> xpath: //div[contains(@class, 'HeaderContent_scrollIcon__')]]\nSession ID: 02916f52-d304-4195-8671-013be748d123",
+      "time" : {
+        "start" : 1694285602563,
+        "stop" : 1694285624961,
+        "duration" : 22398
+      }
+    }, {
+      "uid" : "77a20d9f80699e97",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [17e39a86-8837-458e-861a-d59d1fa5d09f, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:29785, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93221, moz:profile: /tmp/rust_mozprofileToL12X, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:29785/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 17e39a86-8837-458e-861a-d59d1fa5d09f",
+      "time" : {
+        "start" : 1694285526231,
+        "stop" : 1694285531841,
+        "duration" : 5610
+      }
+    }, {
+      "uid" : "c0f0dce4f186bca4",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_facebook__S0KSk\"> is not clickable at point (1203,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [ca17e6e3-ec88-44e9-bf89-edd2a2827068, clickElement {id=b711e832-8088-44dc-9786-7fc3c7882924}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:29031, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 87798, moz:profile: /tmp/rust_mozprofileW7AYPl, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:29031/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (ca17e6e3-ec88-44e9-bf89-edd2a2827068)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[3]/div[1]]\nSession ID: ca17e6e3-ec88-44e9-bf89-edd2a2827068",
+      "time" : {
+        "start" : 1694285146056,
+        "stop" : 1694285168201,
+        "duration" : 22145
+      }
+    }, {
+      "uid" : "3c3e531a3397b8a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [0c76ae90-1707-4e67-8486-6a84ed22f502, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:6738, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 61030, moz:profile: /tmp/rust_mozprofileIzZBYF, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:6738/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0c76ae90-1707-4e67-8486-6a84ed22f502",
+      "time" : {
+        "start" : 1694279509642,
+        "stop" : 1694279515541,
+        "duration" : 5899
+      }
+    }, {
+      "uid" : "27f1ed1b26f2d329",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [8e431bfa-7ab2-4a9b-bc79-e7cc5bf9dd95, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27468, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 59339, moz:profile: /tmp/rust_mozprofileSYxRHT, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27468/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8e431bfa-7ab2-4a9b-bc79-e7cc5bf9dd95",
+      "time" : {
+        "start" : 1694279347260,
+        "stop" : 1694279353866,
+        "duration" : 6606
+      }
+    }, {
+      "uid" : "d01c588070eaaac9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [dd26add5-3ec1-4cfa-8ded-bcf8e2614658, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:31026, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 58102, moz:profile: /tmp/rust_mozprofileu41T8D, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:31026/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: dd26add5-3ec1-4cfa-8ded-bcf8e2614658",
+      "time" : {
+        "start" : 1694279280624,
+        "stop" : 1694279287076,
+        "duration" : 6452
+      }
+    }, {
+      "uid" : "57a793a014167cf6",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [c80c6352-a062-4938-9158-9735da14e524, clickElement {id=6f4154d8-278e-44a0-af7c-049ae089c510}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10423, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53991, moz:profile: /tmp/rust_mozprofileL9HJp9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10423/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (c80c6352-a062-4938-9158-9735da14e524)] -> css selector: #headerButton]\nSession ID: c80c6352-a062-4938-9158-9735da14e524",
+      "time" : {
+        "start" : 1694278816775,
+        "stop" : 1694278839146,
+        "duration" : 22371
+      }
+    }, {
+      "uid" : "13e86db494549aae",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2733bf3f-993a-41f9-b901-da693008cce1, clickElement {id=af23f1f9-c373-4287-b7b4-5bff62197553}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:22181, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 51796, moz:profile: /tmp/rust_mozprofilej5veQN, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:22181/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (2733bf3f-993a-41f9-b901-da693008cce1)] -> css selector: #headerButton]\nSession ID: 2733bf3f-993a-41f9-b901-da693008cce1",
+      "time" : {
+        "start" : 1694278627993,
+        "stop" : 1694278651482,
+        "duration" : 23489
+      }
+    }, {
+      "uid" : "d45a3b7e55bbb095",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [a794f481-a0d7-4c8c-af9b-5d3de1c93a2c, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:4660, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 47483, moz:profile: /tmp/rust_mozprofilePnyUaj, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4660/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a794f481-a0d7-4c8c-af9b-5d3de1c93a2c",
+      "time" : {
+        "start" : 1694278052523,
+        "stop" : 1694278057969,
+        "duration" : 5446
+      }
+    }, {
+      "uid" : "697d1355bd9eec63",
+      "status" : "skipped",
+      "statusDetails" : "geckodriver located at /home/david/geckodriver, but invalid\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1694277997754,
+        "stop" : 1694277997772,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "4d72130b3195fd52",
+      "status" : "skipped",
+      "statusDetails" : "'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'",
+      "time" : {
+        "start" : 1694277469370,
+        "stop" : 1694277469389,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "917d2a6846714851",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7d8197bc-1333-45fd-8e8c-a0fa71ed6566, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:9578, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 40678, moz:profile: /tmp/rust_mozprofileHCehjc, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:9578/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7d8197bc-1333-45fd-8e8c-a0fa71ed6566",
+      "time" : {
+        "start" : 1694277316741,
+        "stop" : 1694277322955,
+        "duration" : 6214
+      }
+    }, {
+      "uid" : "3b23e31600c58111",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [521a48d2-2da0-494f-938f-5e0394d959d6, clickElement {id=a408c30f-3e92-4a9c-899c-4b0b6d19c7df}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:15807, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 37977, moz:profile: /tmp/rust_mozprofileqYotS9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:15807/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (521a48d2-2da0-494f-938f-5e0394d959d6)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 521a48d2-2da0-494f-938f-5e0394d959d6",
+      "time" : {
+        "start" : 1694277092326,
+        "stop" : 1694277112999,
+        "duration" : 20673
+      }
+    }, {
+      "uid" : "1f10d265bb04ae4f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //div[7]//div[2]/div[1]/a[3]/div[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1694276791196,
+        "stop" : 1694276828068,
+        "duration" : 36872
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "test" ]
+  },
+  "source" : "2c677a0860f8b203.json",
+  "parameterValues" : [ "https://www.facebook.com/tesvanllc", "Facebook" ]
+}

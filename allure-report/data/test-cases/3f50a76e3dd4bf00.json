@@ -1,0 +1,388 @@
+{
+  "uid" : "3f50a76e3dd4bf00",
+  "name" : "Verify Language Selection Functionality",
+  "fullName" : "src/test/features/Languages.feature:18",
+  "historyId" : "435fbfdf4bcddf5003650db73e775711",
+  "time" : {
+    "start" : 1694256285716,
+    "stop" : 1694256309247,
+    "duration" : 23531
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 23,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694256285717,
+      "stop" : 1694256288617,
+      "duration" : 2900
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694256288619,
+        "stop" : 1694256305007,
+        "duration" : 16388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694256305008,
+        "stop" : 1694256305962,
+        "duration" : 954
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"ENG\" button",
+      "time" : {
+        "start" : 1694256305967,
+        "stop" : 1694256306228,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"Arm\" language",
+      "time" : {
+        "start" : 1694256306228,
+        "stop" : 1694256308182,
+        "duration" : 1954
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/am\"",
+      "time" : {
+        "start" : 1694256308183,
+        "stop" : 1694256308188,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694256308190,
+      "stop" : 1694256309246,
+      "duration" : 1056
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "92568@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify Language Selection Functionality"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Language Selection Functionality"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Languages_feature.As a user I want to change Language on Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_language_URL",
+    "value" : "/am"
+  }, {
+    "name" : "language",
+    "value" : "ENG"
+  }, {
+    "name" : "selected_language",
+    "value" : "Arm"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc821f8ac16e2cac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694255870918,
+        "stop" : 1694255901843,
+        "duration" : 30925
+      }
+    }, {
+      "uid" : "8bd16f1c51e11785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694253074476,
+        "stop" : 1694253099739,
+        "duration" : 25263
+      }
+    }, {
+      "uid" : "ae43a2f6827e2592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694251908778,
+        "stop" : 1694251940670,
+        "duration" : 31892
+      }
+    }, {
+      "uid" : "ff3a0386894eeb3b",
+      "status" : "passed",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1694251781277,
+        "stop" : 1694251816425,
+        "duration" : 35148
+      }
+    }, {
+      "uid" : "dad19f96114f703d",
+      "status" : "passed",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1694251727843,
+        "stop" : 1694251756317,
+        "duration" : 28474
+      }
+    }, {
+      "uid" : "380c7dd0b733d68e",
+      "status" : "passed",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1694251669708,
+        "stop" : 1694251695063,
+        "duration" : 25355
+      }
+    }, {
+      "uid" : "19759ccadef4bd95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250462333,
+        "stop" : 1694250493180,
+        "duration" : 30847
+      }
+    }, {
+      "uid" : "7353d0a47faee488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250416280,
+        "stop" : 1694250448179,
+        "duration" : 31899
+      }
+    }, {
+      "uid" : "bd2b15aa1e24ff55",
+      "status" : "failed",
+      "statusDetails" : "Unsupported social media: Arm",
+      "time" : {
+        "start" : 1694250354081,
+        "stop" : 1694250383879,
+        "duration" : 29798
+      }
+    }, {
+      "uid" : "37af4eec560a3853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250275854,
+        "stop" : 1694250306459,
+        "duration" : 30605
+      }
+    }, {
+      "uid" : "aedba5ef61286239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250174399,
+        "stop" : 1694250204317,
+        "duration" : 29918
+      }
+    }, {
+      "uid" : "82c0bffdc281e68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250083797,
+        "stop" : 1694250106437,
+        "duration" : 22640
+      }
+    }, {
+      "uid" : "a8150183df0c0b73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694249961064,
+        "stop" : 1694249984051,
+        "duration" : 22987
+      }
+    }, {
+      "uid" : "3558bf3903711906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694249870442,
+        "stop" : 1694249893242,
+        "duration" : 22800
+      }
+    }, {
+      "uid" : "5df5a3eb707ad959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694249805775,
+        "stop" : 1694249828577,
+        "duration" : 22802
+      }
+    }, {
+      "uid" : "ea23106c1a66150f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694249746846,
+        "stop" : 1694249769969,
+        "duration" : 23123
+      }
+    }, {
+      "uid" : "c860bc4e4878d165",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"li\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694249347285,
+        "stop" : 1694249377794,
+        "duration" : 30509
+      }
+    }, {
+      "uid" : "9ad53fc4e7798ec6",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"li\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694249139580,
+        "stop" : 1694249169946,
+        "duration" : 30366
+      }
+    }, {
+      "uid" : "fd2d9d88aa209375",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694248362839,
+        "stop" : 1694248384991,
+        "duration" : 22152
+      }
+    }, {
+      "uid" : "e3c9a28ff7700911",
+      "status" : "failed",
+      "statusDetails" : "Unsupported social media: ARM",
+      "time" : {
+        "start" : 1694248309423,
+        "stop" : 1694248331997,
+        "duration" : 22574
+      }
+    }, {
+      "uid" : "17e69136b866bc78",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694248049745,
+        "stop" : 1694248079554,
+        "duration" : 29809
+      }
+    }, {
+      "uid" : "c54520ea647a5784",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694247957503,
+        "stop" : 1694247987569,
+        "duration" : 30066
+      }
+    }, {
+      "uid" : "76e9e5b63aa6d5c1",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694247796520,
+        "stop" : 1694247819524,
+        "duration" : 23004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "3f50a76e3dd4bf00.json",
+  "parameterValues" : [ "/am", "ENG", "Arm" ]
+}

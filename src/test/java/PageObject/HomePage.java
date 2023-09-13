@@ -2,7 +2,6 @@ package PageObject;
 
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
@@ -35,17 +34,14 @@ public class HomePage extends BaseClass {
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(closeButton));
         closeButton.click();
-
         base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     public boolean isModalClosed() {
         By modalSelector = HomePageSelectors.sendMessageModal;
-
         try {
             WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.invisibilityOfElementLocated(modalSelector));
-
             return true;
         } catch (TimeoutException e) {
             return false;
@@ -56,9 +52,7 @@ public class HomePage extends BaseClass {
         List<WebElement> listItems = base.driver.findElements(HomePageSelectors.languageDropdown);
         for (WebElement listItem : listItems) {
             String languageString = listItem.getText();
-            System.out.println(languageString);
             if (languageString.equals(selectedLanguage)) {
-
                 listItem.click();
                 System.out.println(listItem);
                 break;

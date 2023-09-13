@@ -19,16 +19,10 @@ public class Hooks extends BaseClass {
 
     @Before
     public void initDriver() {
-        // System.out.println("Open browser");
-        // System.setProperty("webdriver.gecko.driver",
-        //         "/home/david/Downloads/geckodriver-v0.33.0-linux64/geckodriver");
-        // base.driver = new FirefoxDriver();
-        // base.driver.manage().window().maximize();
 
         System.out.println("Open browser");
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         base.driver = new ChromeDriver();
-
         base.driver.manage().window().maximize();
 
     }
@@ -36,7 +30,6 @@ public class Hooks extends BaseClass {
     @After
     public void teardown() {
         System.out.println("Close browser");
-        // base.driver.close();
         base.driver.quit();
     }
 }

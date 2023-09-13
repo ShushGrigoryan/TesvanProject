@@ -1,0 +1,368 @@
+{
+  "uid" : "4173c779488d1719",
+  "name" : "Verify Applying for the Sales Specialist Position",
+  "fullName" : "src/test/features/Careers.feature:17",
+  "historyId" : "e7dd6dc8ef3c7506c67f3a07284a24e9",
+  "time" : {
+    "start" : 1694365854919,
+    "stop" : 1694365879631,
+    "duration" : 24712
+  },
+  "status" : "skipped",
+  "statusMessage" : "Undefined Step. Please add step definition",
+  "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694365854925,
+      "stop" : 1694365856858,
+      "duration" : 1933
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Undefined Step. Please add step definition",
+    "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694365856861,
+        "stop" : 1694365873339,
+        "duration" : 16478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694365873364,
+        "stop" : 1694365874895,
+        "duration" : 1531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I hover over the \"Company\" section in the menu bar",
+      "time" : {
+        "start" : 1694365874907,
+        "stop" : 1694365875257,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Careers\" button from dropdown",
+      "time" : {
+        "start" : 1694365875263,
+        "stop" : 1694365875378,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/company/careers\"",
+      "time" : {
+        "start" : 1694365875378,
+        "stop" : 1694365876495,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I \"scroolDown\" page on",
+      "time" : {
+        "start" : 1694365876496,
+        "stop" : 1694365876726,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"More_Details\" button",
+      "time" : {
+        "start" : 1694365876731,
+        "stop" : 1694365876948,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/company/careers/sales_specialist\"",
+      "time" : {
+        "start" : 1694365876949,
+        "stop" : 1694365878526,
+        "duration" : 1577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I \"scrool_down\" page on",
+      "time" : {
+        "start" : 1694365878527,
+        "stop" : 1694365878749,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"fullName_\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694365878749,
+        "stop" : 1694365878925,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"email_\" field with \"test@test.com\" value",
+      "time" : {
+        "start" : 1694365878926,
+        "stop" : 1694365879032,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"phone_\" field with \"12345678910\" value",
+      "time" : {
+        "start" : 1694365879034,
+        "stop" : 1694365879141,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"upload\" button",
+      "time" : {
+        "start" : 1694365879142,
+        "stop" : 1694365879464,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I attach file",
+      "time" : {
+        "start" : 1694365879465,
+        "stop" : 1694365879477,
+        "duration" : 12
+      },
+      "status" : "unknown",
+      "statusMessage" : "Undefined Step. Please add step definition",
+      "statusTrace" : "java.lang.IllegalStateException: Undefined Step. Please add step definition\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handlePickleStep(AllureCucumber7Jvm.java:423)\n\tat io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestStepFinished(AllureCucumber7Jvm.java:251)\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:116)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:67)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:84)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)\n\tat io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I check the I agree to checkbox from Careers",
+      "time" : {
+        "start" : 1694365879478,
+        "stop" : 1694365879479,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Apply\" button",
+      "time" : {
+        "start" : 1694365879481,
+        "stop" : 1694365879482,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the succsessfuly message \".\"",
+      "time" : {
+        "start" : 1694365879482,
+        "stop" : 1694365879483,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694365879486,
+      "stop" : 1694365879624,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "167579@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "story",
+    "value" : "Verify Applying for the Sales Specialist Position"
+  }, {
+    "name" : "suite",
+    "value" : "Careers page functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Applying for the Sales Specialist Position"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Careers.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Careers_feature.Careers page functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "4173c779488d1719.json",
+  "parameterValues" : [ ]
+}

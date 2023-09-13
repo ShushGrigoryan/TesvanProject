@@ -1,0 +1,455 @@
+{
+  "uid" : "1a7a17741157064f",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:21",
+  "historyId" : "a9113ab35128dd962a4da4e65a9d8427",
+  "time" : {
+    "start" : 1694417833506,
+    "stop" : 1694417855612,
+    "duration" : 22106
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 28,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694417833506,
+      "stop" : 1694417834349,
+      "duration" : 843
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694417834350,
+        "stop" : 1694417850729,
+        "duration" : 16379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694417850729,
+        "stop" : 1694417851563,
+        "duration" : 834
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694417851564,
+        "stop" : 1694417851736,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I \"ScroolDown\" the page",
+      "time" : {
+        "start" : 1694417851738,
+        "stop" : 1694417852666,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Linkedin\" button",
+      "time" : {
+        "start" : 1694417852668,
+        "stop" : 1694417852895,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.linkedin.com/company/tesvan\" page",
+      "time" : {
+        "start" : 1694417852896,
+        "stop" : 1694417855507,
+        "duration" : 2611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694417855508,
+      "stop" : 1694417855610,
+      "duration" : 102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "43163@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.linkedin.com/company/tesvan"
+  }, {
+    "name" : "social_media",
+    "value" : "Linkedin"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df866ba571496a5e",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1694417712980,
+        "stop" : 1694417732444,
+        "duration" : 19464
+      }
+    }, {
+      "uid" : "f65b6e64799c7a11",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1694417641805,
+        "stop" : 1694417661697,
+        "duration" : 19892
+      }
+    }, {
+      "uid" : "7fc8189e38258e6",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[2]/div[3]/div[3]/div[1]/div[1]/h1[1]/span[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694417240502,
+        "stop" : 1694417244348,
+        "duration" : 3846
+      }
+    }, {
+      "uid" : "d0507200dbfa4e86",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694417062483,
+        "stop" : 1694417082101,
+        "duration" : 19618
+      }
+    }, {
+      "uid" : "b8fe1bba8fcebeda",
+      "status" : "failed",
+      "statusDetails" : "expected: <https://www.linkedin.com/company/tesvan> but was: <null>",
+      "time" : {
+        "start" : 1694416999508,
+        "stop" : 1694417019319,
+        "duration" : 19811
+      }
+    }, {
+      "uid" : "ed84ce3a05e290ce",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694416618267,
+        "stop" : 1694416637939,
+        "duration" : 19672
+      }
+    }, {
+      "uid" : "654a43a1c908a02f",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694416386737,
+        "stop" : 1694416406090,
+        "duration" : 19353
+      }
+    }, {
+      "uid" : "5deb0b35008ffe47",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694416291041,
+        "stop" : 1694416312927,
+        "duration" : 21886
+      }
+    }, {
+      "uid" : "84a4f709c886956a",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[2]/div[3]/div[3]/div[1]/div[1]/h1[1]/span[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694416225343,
+        "stop" : 1694416229575,
+        "duration" : 4232
+      }
+    }, {
+      "uid" : "81ca297190197501",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694416167515,
+        "stop" : 1694416187242,
+        "duration" : 19727
+      }
+    }, {
+      "uid" : "aad2f00d59de363f",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694416089095,
+        "stop" : 1694416108864,
+        "duration" : 19769
+      }
+    }, {
+      "uid" : "fc043933e6b420a3",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: [object HTMLDivElement] has no size and location\n  (Session info: chrome=116.0.5845.179)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [41017b661f5ce9dda4e808d7d3ed48ee, actions {actions=[org.openqa.selenium.interactions.Sequence@6d2a2560]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39393/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 41017b661f5ce9dda4e808d7d3ed48ee",
+      "time" : {
+        "start" : 1694415808742,
+        "stop" : 1694415829807,
+        "duration" : 21065
+      }
+    }, {
+      "uid" : "223f07db9805da08",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1694415687569,
+        "stop" : 1694415709407,
+        "duration" : 21838
+      }
+    }, {
+      "uid" : "a639ff09e71ec91a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694383969850,
+        "stop" : 1694383996233,
+        "duration" : 26383
+      }
+    }, {
+      "uid" : "f229813498ce5ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694383040744,
+        "stop" : 1694383062345,
+        "duration" : 21601
+      }
+    }, {
+      "uid" : "2aa9fa99397c6159",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1694382815661,
+        "stop" : 1694382835543,
+        "duration" : 19882
+      }
+    }, {
+      "uid" : "28adfc1197f6d424",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d9c8e1e8cc60e6c9140e6c0765880dd4, findElement {using=css selector, value=/html/body/div[1]/div[8]/div/div/div/div/div[2]/div/a[2]/div}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37691}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37691/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d9c8e1e8cc60e6c9140e6c0765880dd4",
+      "time" : {
+        "start" : 1694382750098,
+        "stop" : 1694382769840,
+        "duration" : 19742
+      }
+    }, {
+      "uid" : "29db36fdf1b57fe0",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8f568e92e22a9dc28941100d9d98c740, findElement {using=css selector, value=/html/body/div[1]/div[8]/div/div/div/div/div[2]/div/a[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38189}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38189/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8f568e92e22a9dc28941100d9d98c740",
+      "time" : {
+        "start" : 1694382630276,
+        "stop" : 1694382650007,
+        "duration" : 19731
+      }
+    }, {
+      "uid" : "b0d0ce35f9d9f957",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [40af2f99a8c7bafc807b7b26575fb7c6, findElement {using=css selector, value=/html/body/div[1]/div[8]/div/div/div/div/div[2]/div/a[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44295/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 40af2f99a8c7bafc807b7b26575fb7c6",
+      "time" : {
+        "start" : 1694382278638,
+        "stop" : 1694382298245,
+        "duration" : 19607
+      }
+    }, {
+      "uid" : "275d1c74af87dfdd",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [70935f9cfb9731baa841b0661f1ceec0, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[2]/div[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36487/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 70935f9cfb9731baa841b0661f1ceec0",
+      "time" : {
+        "start" : 1694382049109,
+        "stop" : 1694382069756,
+        "duration" : 20647
+      }
+    }, {
+      "uid" : "8a879507bf14d5b4",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2a91bc760ac4a77896fda21bd4f5b873, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[2]/div[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44489/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2a91bc760ac4a77896fda21bd4f5b873",
+      "time" : {
+        "start" : 1694381926227,
+        "stop" : 1694381946802,
+        "duration" : 20575
+      }
+    }, {
+      "uid" : "3e66e06bf8a346ce",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f07448b506ee7fc3374180c9a72de5f, findElement {using=css selector, value=/html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[2]/div[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38711/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f07448b506ee7fc3374180c9a72de5f",
+      "time" : {
+        "start" : 1694381780286,
+        "stop" : 1694381803157,
+        "duration" : 22871
+      }
+    }, {
+      "uid" : "eccb1bb08aaa26d0",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694381632353,
+        "stop" : 1694381638706,
+        "duration" : 6353
+      }
+    }, {
+      "uid" : "bd8f8997a76066a",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [99a3eb813839453f6b46138a49cad354, findElement {using=css selector, value=//div[contains(@class, 'Contact_container__')]//div[contains(@class, 'LinkIcons_linkedin__')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39971}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39971/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 99a3eb813839453f6b46138a49cad354",
+      "time" : {
+        "start" : 1694381387405,
+        "stop" : 1694381408096,
+        "duration" : 20691
+      }
+    }, {
+      "uid" : "2c21cb54b96f188f",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [808f2f0cb741753a579cd6bd279b0579, findElement {using=css selector, value=[div[class='LinkIcons_icons__HE8HC ContactInfo_icons__1syNe'] div[class='LinkIcons_linkedin__LH1sq']]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34705}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34705/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 808f2f0cb741753a579cd6bd279b0579",
+      "time" : {
+        "start" : 1694381061410,
+        "stop" : 1694381082194,
+        "duration" : 20784
+      }
+    }, {
+      "uid" : "4a6029b54e49ff9b",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694380889271,
+        "stop" : 1694380895556,
+        "duration" : 6285
+      }
+    }, {
+      "uid" : "cf04915ef46ed747",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [338377a1cb08bf6668f669bb1eaccb7c, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35287/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 338377a1cb08bf6668f669bb1eaccb7c",
+      "time" : {
+        "start" : 1694380584473,
+        "stop" : 1694380600119,
+        "duration" : 15646
+      }
+    }, {
+      "uid" : "b28c1cb0f34e91f3",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1694380521311,
+        "stop" : 1694380528951,
+        "duration" : 7640
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "1a7a17741157064f.json",
+  "parameterValues" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+}

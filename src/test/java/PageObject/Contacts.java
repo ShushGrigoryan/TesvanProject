@@ -18,32 +18,26 @@ public class Contacts extends BaseClass {
         this.base = base;
     }
 
-    
     public boolean ResponseMessageFromContacts(String responseSuccessMesage) {
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(20));
         By successMessageLocator = ContactsSelectors.successMesageFromContacts(responseSuccessMesage);
-    
-        System.out.println("Waiting for success message to be visible...");
-        ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);", base.driver.findElement(successMessageLocator));
-
+        ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);",
+                base.driver.findElement(successMessageLocator));
         WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(successMessageLocator));
-        System.out.println("Success message is now visible!");    
         return successMessage.isDisplayed();
     }
 
- public void checkboxFromContacts() {
+    public void checkboxFromContacts() {
         base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         base.driver.findElement(ContactsSelectors.CheckBoxFromContacts).click();
     }
-
 
     public String emailInputError(String expectedErrorMessage) {
         WebElement errorElement = base.driver
                 .findElement(ContactsSelectors.emailErrorMessage(expectedErrorMessage));
         return errorElement.getText();
     }
- 
 
     public String textAreaError(String expectedErrorMessage) {
         WebElement errorElement = base.driver
@@ -57,5 +51,4 @@ public class Contacts extends BaseClass {
         return errorElement.getText();
     }
 
-   
 }

@@ -23,14 +23,12 @@ public class Careers extends BaseClass {
     }
 
     public void hoverOver(String section) {
-
         WebElement companySection = base.driver.findElement(CareersSelectors.CompanyButton);
         Actions actions = new Actions(base.driver);
         actions.moveToElement(companySection).perform();
     }
 
     public void clickFromDropdown(String subsection) {
-
         WebElement dropdownElement = base.driver.findElement(CareersSelectors.CareersButton);
         dropdownElement.click();
 
@@ -38,22 +36,18 @@ public class Careers extends BaseClass {
 
     public void ScroolDownPage(String elementName) {
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
-
         Elements element = Arrays.stream(Elements.values())
                 .filter(e -> e.getName().equals(elementName))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Unknown element: " + elementName));
         WebElement elem = wait.until(ExpectedConditions.presenceOfElementLocated(element.getBy()));
-
         ((JavascriptExecutor) base.driver).executeScript("arguments[0].scrollIntoView(true);", elem);
-
         Actions actions = new Actions(base.driver);
         actions.moveToElement(elem).click().perform();
 
     }
 
     public void attachFile() {
-
         try {
             Robot robot = new Robot();
             String filePath = "/home/david/Desktop/cv.pdf";
@@ -89,17 +83,10 @@ public class Careers extends BaseClass {
     }
 
     public void checkboxFromCareers() {
-
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
-
         WebElement checkbox = base.driver.findElement(CareersSelectors.Checkbox_from_careers);
         wait.until(ExpectedConditions.elementToBeClickable(checkbox));
         checkbox.click();
-
-        // int xOffset = 18;
-        // int yOffset = (int) 17.438;
-        // new Actions(base.driver).moveByOffset(xOffset, yOffset).click().perform();
-
     }
 
     public boolean successMessage(String Success) {

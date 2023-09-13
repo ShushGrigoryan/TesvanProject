@@ -1,0 +1,197 @@
+{
+  "uid" : "7a7e067b9ad2ce85",
+  "name" : "Verify page content in selected language",
+  "fullName" : "src/test/features/Languages.feature:19",
+  "historyId" : "54c2728125b9f965707489c84bc92987",
+  "time" : {
+    "start" : 1694247819651,
+    "stop" : 1694247841116,
+    "duration" : 21465
+  },
+  "status" : "broken",
+  "statusMessage" : "Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+  "statusTrace" : "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.Select.<init>(Select.java:46)\n\tat PageObject.Languages.selectLanguage(Languages.java:23)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:27)\n\tat ✽.I select a \"ru\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694247819651,
+      "stop" : 1694247822798,
+      "duration" : 3147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+    "statusTrace" : "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.Select.<init>(Select.java:46)\n\tat PageObject.Languages.selectLanguage(Languages.java:23)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:27)\n\tat ✽.I select a \"ru\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694247822799,
+        "stop" : 1694247839102,
+        "duration" : 16303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694247839103,
+        "stop" : 1694247840053,
+        "duration" : 950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"esp\" button",
+      "time" : {
+        "start" : 1694247840054,
+        "stop" : 1694247840071,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"ru\" language",
+      "time" : {
+        "start" : 1694247840073,
+        "stop" : 1694247840091,
+        "duration" : 18
+      },
+      "status" : "broken",
+      "statusMessage" : "Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "statusTrace" : "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.Select.<init>(Select.java:46)\n\tat PageObject.Languages.selectLanguage(Languages.java:23)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:27)\n\tat ✽.I select a \"ru\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I see that the page content should be displayed in the \"French\" language",
+      "time" : {
+        "start" : 1694247840092,
+        "stop" : 1694247840094,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694247840096,
+      "stop" : 1694247841113,
+      "duration" : 1017
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "32316@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Languages_feature.As a user I want to change Language on Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_language",
+    "value" : "French"
+  }, {
+    "name" : "language",
+    "value" : "esp"
+  }, {
+    "name" : "selected_language",
+    "value" : "ru"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "7a7e067b9ad2ce85.json",
+  "parameterValues" : [ "French", "esp", "ru" ]
+}

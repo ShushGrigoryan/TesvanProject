@@ -9,7 +9,8 @@ public enum Elements {
         PHONE_INPUT_FIELD("phone", By.xpath("//div[1]/div[3]/form[1]/div[2]/div[1]/label[1]/div[1]//input[1]")),
         COMPANY_INPUT_FIELD("company", By.xpath("//div[1]/div[3]/form[1]/div[2]/div[2]/label[1]/div[1]//input[1]")),
         DESCRIPTION_INPUT_FIELD("description", By.xpath("//div[3]/form[1]/div[3]/label[1]/div[1]/textarea[1]")),
-        SEND_MESSAGE_BUTTON_FROM_MODAL("send_message", By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/form[1]/button[1]")),
+        SEND_MESSAGE_BUTTON_FROM_MODAL("send_message",
+                        By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/form[1]/button[1]")),
         UPWORK_SOCIAL_MEDIA_BUTTON("upwork",
                         By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/a[1]/div[1]")),
         LINKEDIN_SOCIAL_MEDIA_BUTTON("linkedin",
@@ -56,6 +57,8 @@ public enum Elements {
         APPLY_BUTTON_FROM_CAREERS("Apply",
                         By.xpath("//button[normalize-space()='Apply']")),
         UPLOAD("upload", By.xpath("//span[@class='FileUploader_attach__zzM7j FileUploader_whiteAttach___KB8Z']"));
+
+
 
         public final String name;
         public final By by;

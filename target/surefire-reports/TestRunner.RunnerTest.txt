@@ -1,37 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 72.046 s <<< FAILURE! - in TestRunner.RunnerTest
-Verify Social Media Navigation from Contact #1(As A user I want to send message and navigate to social media pages)  Time elapsed: 24.527 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d19999fd-9be6-420e-8820-367c561a4d8f, clickElement {id=240dd69f-e743-44db-a6c6-493ef751488d}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18251, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 52998, moz:profile: /tmp/rust_mozprofileMw1hvX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18251/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on linux (d19999fd-9be6-420e-8820-367c561a4d8f)] -> css selector: #headerButton]
-Session ID: d19999fd-9be6-420e-8820-367c561a4d8f
+Tests run: 7, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 141.385 s <<< FAILURE! - in TestRunner.RunnerTest
+Verify Social Media Navigation from Contact Information #1(As A user I want to send message)  Time elapsed: 17.872 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 
-Verify Social Media Navigation from Contact #2(As A user I want to send message and navigate to social media pages)  Time elapsed: 22.24 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [00ca619e-4833-4862-a3a6-d3fc77834dc5, clickElement {id=6d6746f3-3cc5-4e94-9d9d-6e06b858bc18}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18944, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53462, moz:profile: /tmp/rust_mozprofileJ1Su8g, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18944/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on linux (00ca619e-4833-4862-a3a6-d3fc77834dc5)] -> css selector: #headerButton]
-Session ID: 00ca619e-4833-4862-a3a6-d3fc77834dc5
+Verify Social Media Navigation from Contact Information #2(As A user I want to send message)  Time elapsed: 17.559 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 
-Verify Social Media Navigation from Contact #3(As A user I want to send message and navigate to social media pages)  Time elapsed: 22.381 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-Element <button id="headerButton" class="Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB" type="button"> is not clickable at point (923,30) because another element <nav class="MenuItems_itemsNav__iv9jh"> obscures it
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c80c6352-a062-4938-9158-9735da14e524, clickElement {id=6f4154d8-278e-44a0-af7c-049ae089c510}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10423, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53991, moz:profile: /tmp/rust_mozprofileL9HJp9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10423/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on linux (c80c6352-a062-4938-9158-9735da14e524)] -> css selector: #headerButton]
-Session ID: c80c6352-a062-4938-9158-9735da14e524
+Verify Social Media Navigation from Contact Information #3(As A user I want to send message)  Time elapsed: 24.556 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <https://www.facebook.com/tesvanllc> but was: <https://www.upwork.com/ag/tesvan/>
 

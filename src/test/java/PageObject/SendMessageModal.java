@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,7 +23,6 @@ public class SendMessageModal extends BaseClass {
 
     public void fillField(String fieldName, String value) {
         base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
         Elements element = Arrays.stream(Elements.values())
                 .filter(e -> e.getName().equals(fieldName))
                 .findFirst()
@@ -39,30 +39,29 @@ public class SendMessageModal extends BaseClass {
 
     public void checkboxFromModal() {
         base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
         base.driver.findElement(MessageModalSelectors.CheckBoxFromSendMessageModal).click();
     }
 
     public void clickOnElement(String elementName) {
-
         WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
-
         Elements element = Arrays.stream(Elements.values())
                 .filter(e -> e.getName().equals(elementName))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Unknown element: " + elementName));
         WebElement elem = wait.until(ExpectedConditions.presenceOfElementLocated(element.getBy()));
-
         Actions actions = new Actions(base.driver);
         actions.moveToElement(elem).click().perform();
 
     }
 
-    public boolean Message(String successMessage) {
-        base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-        return base.driver
-                .findElement(MessageModalSelectors.successMessage(successMessage)).isDisplayed();
-
+    public boolean isMessageVisible(String successMessage) {
+        WebDriverWait wait = new WebDriverWait(base.driver, Duration.ofSeconds(10));
+        try {
+            return wait.until(ExpectedConditions
+                    .visibilityOfElementLocated(MessageModalSelectors.successMessage(successMessage))) != null;
+        } catch (TimeoutException e) {
+            return false;
+        }
     }
 
     public String inputError(String expectedErrorMessage) {

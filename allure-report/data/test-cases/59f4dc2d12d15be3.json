@@ -1,0 +1,209 @@
+{
+  "uid" : "59f4dc2d12d15be3",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:80",
+  "historyId" : "12f473fbdd399c11d79b0905edc774e4",
+  "time" : {
+    "start" : 1694276433389,
+    "stop" : 1694276459114,
+    "duration" : 25725
+  },
+  "status" : "broken",
+  "statusMessage" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)\n\tat StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)\n\tat ✽.I click on the \"ScroolDown\" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:73)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694276433390,
+      "stop" : 1694276438086,
+      "duration" : 4696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)\n\tat StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)\n\tat ✽.I click on the \"ScroolDown\" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:73)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694276438087,
+        "stop" : 1694276455104,
+        "duration" : 17017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694276455107,
+        "stop" : 1694276456000,
+        "duration" : 893
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694276456003,
+        "stop" : 1694276456642,
+        "duration" : 639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"ScroolDown\" button",
+      "time" : {
+        "start" : 1694276456648,
+        "stop" : 1694276457625,
+        "duration" : 977
+      },
+      "status" : "broken",
+      "statusMessage" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0b6ebd2-8f2a-4123-928e-dae0d1bccc00, clickElement {id=a863344a-3bfe-4f7c-85a1-f7cc0385024f}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 29963, moz:profile: /tmp/rust_mozprofiletw8CYG, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7080/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d0b6ebd2-8f2a-4123-928e-dae0d1bccc00)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: d0b6ebd2-8f2a-4123-928e-dae0d1bccc00\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.SendMessageModal.clickOnElement(SendMessageModal.java:59)\n\tat StepDefinitions.MessageSteps.send_message(MessageSteps.java:31)\n\tat ✽.I click on the \"ScroolDown\" button(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:73)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  I click on the \"Linkedin\" link",
+      "time" : {
+        "start" : 1694276457630,
+        "stop" : 1694276457632,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.linkedin.com/company/tesvan\" page",
+      "time" : {
+        "start" : 1694276457639,
+        "stop" : 1694276457641,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694276457642,
+      "stop" : 1694276459106,
+      "duration" : 1464
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "29469@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.linkedin.com/company/tesvan"
+  }, {
+    "name" : "social_media",
+    "value" : "Linkedin"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "59f4dc2d12d15be3.json",
+  "parameterValues" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+}

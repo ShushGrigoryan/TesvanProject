@@ -1,12 +1,16 @@
 Selectors/ContactsSelectors.class
 PageObject/HomePage.class
 Selectors/MessageModalSelectors.class
+PageObject/Careers.class
 StepDefinitions/HomePageSteps.class
 PageObject/Contacts.class
+Selectors/CareersSelectors.class
 PageObject/SendMessageModal.class
 Selectors/HomePageSelectors.class
 StepDefinitions/ContactsSteps.class
+StepDefinitions/CareersSteps.class
 BaseClass/BaseClass.class
 StepDefinitions/Hooks.class
 PageObject/Elements.class
+StepDefinitions/MessageSteps.class
 TestRunner/RunnerTest.class

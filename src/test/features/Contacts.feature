@@ -22,7 +22,6 @@ Feature: As A user I want to send message and navigate to social media pages
 
 
 
-
     Scenario: Send a message with valid data
 
         When I click on the "Contacts" button
@@ -62,7 +61,7 @@ Feature: As A user I want to send message and navigate to social media pages
         And I fill in "Phone" field with "123456789" value
         And I fill in "Company" field with "testCompany" value
         And I fill in "Description" field with "test" value
-        When I check the I agree to checkbox From Contacts
+        And I check the I agree to checkbox From Contacts
         And I click on the "Send_Message" button
         Then I should see the text area error "Description should contain minimum 20 characters"
 

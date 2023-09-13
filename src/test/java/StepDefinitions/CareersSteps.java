@@ -33,7 +33,7 @@ public class CareersSteps extends Careers {
         super.attachFile();
     }
 
-    @And("I check the I agree to checkbox from Careers")
+    @When("I check the I agree to checkbox from Careers")
     public void check_checkbox() {
         super.checkboxFromCareers();
     }

@@ -1,0 +1,387 @@
+{
+  "uid" : "aff6575770e45485",
+  "name" : "Verify Language Selection Functionality",
+  "fullName" : "src/test/features/Languages.feature:19",
+  "historyId" : "54c2728125b9f965707489c84bc92987",
+  "time" : {
+    "start" : 1694256309267,
+    "stop" : 1694256329563,
+    "duration" : 20296
+  },
+  "status" : "broken",
+  "statusMessage" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83",
+  "statusTrace" : "org.openqa.selenium.ElementNotInteractableException: Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.HomePage.closeButton(HomePage.java:37)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:6)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694256309267,
+      "stop" : 1694256311984,
+      "duration" : 2717
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83",
+    "statusTrace" : "org.openqa.selenium.ElementNotInteractableException: Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.HomePage.closeButton(HomePage.java:37)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:6)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694256311984,
+        "stop" : 1694256328267,
+        "duration" : 16283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694256328268,
+        "stop" : 1694256328383,
+        "duration" : 115
+      },
+      "status" : "broken",
+      "statusMessage" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83",
+      "statusTrace" : "org.openqa.selenium.ElementNotInteractableException: Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [03439eed-39b2-4229-b487-055d8b387d83, clickElement {id=046498fd-4946-4076-836d-125bb218795a}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27958, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93550, moz:profile: /tmp/rust_mozprofile5Q5RYo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (03439eed-39b2-4229-b487-055d8b387d83)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 03439eed-39b2-4229-b487-055d8b387d83\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat PageObject.HomePage.closeButton(HomePage.java:37)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:6)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  I click on the \"ENG\" button",
+      "time" : {
+        "start" : 1694256328385,
+        "stop" : 1694256328391,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"Ru\" language",
+      "time" : {
+        "start" : 1694256328395,
+        "stop" : 1694256328397,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/ru\"",
+      "time" : {
+        "start" : 1694256328399,
+        "stop" : 1694256328405,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694256328407,
+      "stop" : 1694256329560,
+      "duration" : 1153
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "92568@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify Language Selection Functionality"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Language Selection Functionality"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Languages_feature.As a user I want to change Language on Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_language_URL",
+    "value" : "/ru"
+  }, {
+    "name" : "language",
+    "value" : "ENG"
+  }, {
+    "name" : "selected_language",
+    "value" : "Ru"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "633bda0de49cbe58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694255901880,
+        "stop" : 1694255932865,
+        "duration" : 30985
+      }
+    }, {
+      "uid" : "6d969b46163ada29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694253099820,
+        "stop" : 1694253123772,
+        "duration" : 23952
+      }
+    }, {
+      "uid" : "d39a8cadc7b83eae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694251940812,
+        "stop" : 1694251970615,
+        "duration" : 29803
+      }
+    }, {
+      "uid" : "52f168b8997887b6",
+      "status" : "passed",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1694251816611,
+        "stop" : 1694251845785,
+        "duration" : 29174
+      }
+    }, {
+      "uid" : "e5eeb5f3a9cb30bc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [15011ed1-05b7-4010-b70a-cae267a31cfd, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:11761, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 63581, moz:profile: /tmp/rust_mozprofilePUB9hT, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:11761/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 15011ed1-05b7-4010-b70a-cae267a31cfd",
+      "time" : {
+        "start" : 1694251756474,
+        "stop" : 1694251764800,
+        "duration" : 8326
+      }
+    }, {
+      "uid" : "eb8ff1f804f0b241",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d19f4e6a-97a5-431a-b7cc-89dd48fb6a64, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13503, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 62606, moz:profile: /tmp/rust_mozprofilekmS2TJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13503/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d19f4e6a-97a5-431a-b7cc-89dd48fb6a64",
+      "time" : {
+        "start" : 1694251695156,
+        "stop" : 1694251701713,
+        "duration" : 6557
+      }
+    }, {
+      "uid" : "e9542c6371ac0db4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694250493307,
+        "stop" : 1694250522533,
+        "duration" : 29226
+      }
+    }, {
+      "uid" : "b692606edc594eec",
+      "status" : "skipped",
+      "statusDetails" : "Failed to decode response from marionette\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3026b75a-5347-4b12-aa6b-4f0d563ecf5d, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:4277, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 55176, moz:profile: /tmp/rust_mozprofileRXjmeg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4277/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3026b75a-5347-4b12-aa6b-4f0d563ecf5d",
+      "time" : {
+        "start" : 1694250448323,
+        "stop" : 1694250454251,
+        "duration" : 5928
+      }
+    }, {
+      "uid" : "2a3b2bede771a32",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: Failed to decode response from marionette \nHost info: host: 'david', ip: '127.0.1.1'\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {profile: UEsDBBQACAgIAKNoKVcAAAAAAAA...}}]}]",
+      "time" : {
+        "start" : 1694250306603,
+        "stop" : 1694250312494,
+        "duration" : 5891
+      }
+    }, {
+      "uid" : "16b9a81606dfb0c5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [f64a0db1-6856-4c41-a38a-f197f811b228, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:24826, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 51014, moz:profile: /tmp/rust_mozprofileSlmFZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:24826/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f64a0db1-6856-4c41-a38a-f197f811b228",
+      "time" : {
+        "start" : 1694250106546,
+        "stop" : 1694250113522,
+        "duration" : 6976
+      }
+    }, {
+      "uid" : "71fa6e0a4bc13d8f",
+      "status" : "broken",
+      "statusDetails" : "WebDriver session does not exist, or is not active\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [898b7ce4-efa0-45f6-a011-7cc1dfe9272a, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7273, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 49764, moz:profile: /tmp/rust_mozprofileRne2Fd, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7273/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 898b7ce4-efa0-45f6-a011-7cc1dfe9272a",
+      "time" : {
+        "start" : 1694249984146,
+        "stop" : 1694249988910,
+        "duration" : 4764
+      }
+    }, {
+      "uid" : "77c28b71532707f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694249893311,
+        "stop" : 1694249914771,
+        "duration" : 21460
+      }
+    }, {
+      "uid" : "840e31b3f3bfcd99",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [5357d92a-5ed2-41b5-921b-ff7800c4d74b, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7712, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 47641, moz:profile: /tmp/rust_mozprofilestjVY9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7712/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5357d92a-5ed2-41b5-921b-ff7800c4d74b",
+      "time" : {
+        "start" : 1694249828647,
+        "stop" : 1694249833698,
+        "duration" : 5051
+      }
+    }, {
+      "uid" : "7a03b59046a69372",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2e49243f-1fe5-458e-934c-894fd3c9816f, clickElement {id=3792bfb4-7258-4796-86a1-710cb77280a4}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:9041, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 46705, moz:profile: /tmp/rust_mozprofile9YNrgs, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:9041/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (2e49243f-1fe5-458e-934c-894fd3c9816f)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 2e49243f-1fe5-458e-934c-894fd3c9816f",
+      "time" : {
+        "start" : 1694249770065,
+        "stop" : 1694249790585,
+        "duration" : 20520
+      }
+    }, {
+      "uid" : "1f1e2076694b55e3",
+      "status" : "broken",
+      "statusDetails" : "Failed to decode response from marionette\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [139c1995-3819-40e1-89e0-47d0da0615cb, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:24131, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 44145, moz:profile: /tmp/rust_mozprofiles38idE, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:24131/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 139c1995-3819-40e1-89e0-47d0da0615cb",
+      "time" : {
+        "start" : 1694249378002,
+        "stop" : 1694249385376,
+        "duration" : 7374
+      }
+    }, {
+      "uid" : "489044c0e4ae1633",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [a1127163-42a3-4ffc-9b78-7aad793848fa, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:4975, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 42529, moz:profile: /tmp/rust_mozprofileQ3sgff, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4975/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a1127163-42a3-4ffc-9b78-7aad793848fa",
+      "time" : {
+        "start" : 1694249170112,
+        "stop" : 1694249178116,
+        "duration" : 8004
+      }
+    }, {
+      "uid" : "dc395962013931f1",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694248385105,
+        "stop" : 1694248406254,
+        "duration" : 21149
+      }
+    }, {
+      "uid" : "9fe618529e3b0781",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [29424768-53df-4440-bc5b-9355f0d72323, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:1918, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 37251, moz:profile: /tmp/rust_mozprofileKxMkt8, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:1918/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 29424768-53df-4440-bc5b-9355f0d72323",
+      "time" : {
+        "start" : 1694248332103,
+        "stop" : 1694248339776,
+        "duration" : 7673
+      }
+    }, {
+      "uid" : "d05c66dbac20a03c",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"div\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694248079723,
+        "stop" : 1694248107307,
+        "duration" : 27584
+      }
+    }, {
+      "uid" : "a16b8c443d73c53e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browsingContext.currentWindowGlobal is null\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [41f94322-bda7-48a6-95ce-cda35fcb554c, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:25921, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 34263, moz:profile: /tmp/rust_mozprofile81oRrS, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:25921/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 41f94322-bda7-48a6-95ce-cda35fcb554c",
+      "time" : {
+        "start" : 1694247987748,
+        "stop" : 1694247996096,
+        "duration" : 8348
+      }
+    }, {
+      "uid" : "7a7e067b9ad2ce85",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"ul\"\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1694247819651,
+        "stop" : 1694247841116,
+        "duration" : 21465
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "test" ]
+  },
+  "source" : "aff6575770e45485.json",
+  "parameterValues" : [ "/ru", "ENG", "Ru" ]
+}

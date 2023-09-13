@@ -1,0 +1,551 @@
+[ {
+  "uid" : "c40977956ffe6063",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694423609474,
+    "stop" : 1694423629800,
+    "duration" : 20326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d58240fa488eb2e1",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694380343601,
+    "stop" : 1694380347597,
+    "duration" : 3996
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a972992717d2e41",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694276686575,
+    "stop" : 1694276694672,
+    "duration" : 8097
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33b0f7f3ecc2c4d5",
+  "name" : "Send a message with invalid description less than 20 characters",
+  "time" : {
+    "start" : 1694414499194,
+    "stop" : 1694414518053,
+    "duration" : 18859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b0d274b1a07dc13",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694334374147,
+    "stop" : 1694334409427,
+    "duration" : 35280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25e513556d371f4f",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694272549642,
+    "stop" : 1694272588062,
+    "duration" : 38420
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e1de53a762a7ba7",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694380325706,
+    "stop" : 1694380343411,
+    "duration" : 17705
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a7f301ffaee9a7d",
+  "name" : "Send a message with invalid email format data",
+  "time" : {
+    "start" : 1694273803233,
+    "stop" : 1694273824602,
+    "duration" : 21369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca0a3f4184c518fd",
+  "name" : "Send a message without checking the \"I Agree\" checkbox and receive an error",
+  "time" : {
+    "start" : 1694414518064,
+    "stop" : 1694414536677,
+    "duration" : 18613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96bff27b7d6bd640",
+  "name" : "Send a message with invalid email format data",
+  "time" : {
+    "start" : 1694243219658,
+    "stop" : 1694243250897,
+    "duration" : 31239
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5281e92252de8e04",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694273779622,
+    "stop" : 1694273803154,
+    "duration" : 23532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9b63a89fdeb49cf",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694272588240,
+    "stop" : 1694272624761,
+    "duration" : 36521
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f95f49b610b83515",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694423586947,
+    "stop" : 1694423609376,
+    "duration" : 22429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "714abac41c846168",
+  "name" : "Send a message with invalid description less than 20 characters",
+  "time" : {
+    "start" : 1694385434231,
+    "stop" : 1694385455512,
+    "duration" : 21281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "536d0331787b2653",
+  "name" : "Send a message without checking the \"I Agree\" checkbox and receive an error",
+  "time" : {
+    "start" : 1694418008852,
+    "stop" : 1694418031200,
+    "duration" : 22348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6075b5f002b9a61",
+  "name" : "Send a message with invalid email format data",
+  "time" : {
+    "start" : 1694417939919,
+    "stop" : 1694417962599,
+    "duration" : 22680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9737af65b6752391",
+  "name" : "Verify Applying for the Sales Specialist Position",
+  "time" : {
+    "start" : 1694424056016,
+    "stop" : 1694424091294,
+    "duration" : 35278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "684f9e9c86e28ba6",
+  "name" : "Changing the language on the page",
+  "time" : {
+    "start" : 1694244197914,
+    "stop" : 1694244229137,
+    "duration" : 31223
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aff6575770e45485",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694256309267,
+    "stop" : 1694256329563,
+    "duration" : 20296
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "584c9418eb5cc2c8",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694276569045,
+    "stop" : 1694276578126,
+    "duration" : 9081
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd27395ddf4a8fe8",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694417907768,
+    "stop" : 1694417929399,
+    "duration" : 21631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aff1bdfd73f42b91",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694334441103,
+    "stop" : 1694334476352,
+    "duration" : 35249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "723531b2e614f27c",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694383880305,
+    "stop" : 1694383907986,
+    "duration" : 27681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f713209c73d71fb5",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694276661848,
+    "stop" : 1694276686468,
+    "duration" : 24620
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c2e3e8b5c46e9d2",
+  "name" : "Send a message with invalid description less than 20 characters",
+  "time" : {
+    "start" : 1694273824612,
+    "stop" : 1694273845436,
+    "duration" : 20824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f748ffd9997cd187",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694260019471,
+    "stop" : 1694260043458,
+    "duration" : 23987
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3f50a76e3dd4bf00",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694256285716,
+    "stop" : 1694256309247,
+    "duration" : 23531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e651c9b3d3cd4a00",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694255132080,
+    "stop" : 1694255138835,
+    "duration" : 6755
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a7a17741157064f",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694417833506,
+    "stop" : 1694417855612,
+    "duration" : 22106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a14e0de1b545718",
+  "name" : "Send a message without checking the \"I Agree\" checkbox and receive an error",
+  "time" : {
+    "start" : 1694273845454,
+    "stop" : 1694273866117,
+    "duration" : 20663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb22bec6db342de7",
+  "name" : "Send a message with invalid description less than 20 characters",
+  "time" : {
+    "start" : 1694417971997,
+    "stop" : 1694417993387,
+    "duration" : 21390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1887e7b30c5b48bf",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694423652797,
+    "stop" : 1694423675267,
+    "duration" : 22470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64f068cd4544caec",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "time" : {
+    "start" : 1694415453292,
+    "stop" : 1694415475674,
+    "duration" : 22382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af636bf462ca290c",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694286157487,
+    "stop" : 1694286183674,
+    "duration" : 26187
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a76090fc71ebdc19",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "time" : {
+    "start" : 1694415475702,
+    "stop" : 1694415495811,
+    "duration" : 20109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b6a693e14b5b2ee",
+  "name" : "Verify accessing the Careers page",
+  "time" : {
+    "start" : 1694272075123,
+    "stop" : 1694272098305,
+    "duration" : 23182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c93f7d45bf575220",
+  "name" : "Send a message with invalid email format data",
+  "time" : {
+    "start" : 1694414480358,
+    "stop" : 1694414499166,
+    "duration" : 18808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a819480b8cbbdb06",
+  "name" : "Verify Applying for the Sales Specialist Position",
+  "time" : {
+    "start" : 1694331014762,
+    "stop" : 1694331101890,
+    "duration" : 87128
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57a7c51c61e1d29f",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694417806258,
+    "stop" : 1694417833397,
+    "duration" : 27139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7e258607ce36c43",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694273599764,
+    "stop" : 1694273633475,
+    "duration" : 33711
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d84212c94da730ff",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694262325247,
+    "stop" : 1694262351815,
+    "duration" : 26568
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c9213c7f11b99e9",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694334476388,
+    "stop" : 1694334511695,
+    "duration" : 35307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4190e465fb53b2b0",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694271644616,
+    "stop" : 1694271665145,
+    "duration" : 20529
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ca194c67e306cff",
+  "name" : "Send a message with invalid email format data",
+  "time" : {
+    "start" : 1694385258286,
+    "stop" : 1694385280975,
+    "duration" : 22689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf02509f5fee8553",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694242600024,
+    "stop" : 1694242631103,
+    "duration" : 31079
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b55ff93554affe",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694274941940,
+    "stop" : 1694274969259,
+    "duration" : 27319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "770feccbd617a086",
+  "name" : "Send a message without checking the \"I Agree\" checkbox and receive an error",
+  "time" : {
+    "start" : 1694385469380,
+    "stop" : 1694385490685,
+    "duration" : 21305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48c6576e8377fc1f",
+  "name" : "Send a message with valid data",
+  "time" : {
+    "start" : 1694415594345,
+    "stop" : 1694415621184,
+    "duration" : 26839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65b9e18c484731c2",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "time" : {
+    "start" : 1694273906170,
+    "stop" : 1694273919848,
+    "duration" : 13678
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a17d839a6b057af",
+  "name" : "Verify Language Selection Functionality",
+  "time" : {
+    "start" : 1694274913321,
+    "stop" : 1694274941807,
+    "duration" : 28486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c677a0860f8b203",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694380347631,
+    "stop" : 1694380363676,
+    "duration" : 16045
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8deb85b774bd50a",
+  "name" : "Verify, that modal is closed",
+  "time" : {
+    "start" : 1694199152605,
+    "stop" : 1694199175155,
+    "duration" : 22550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b2d08e1e980ae45",
+  "name" : "User selects some language and switches back",
+  "time" : {
+    "start" : 1694423629818,
+    "stop" : 1694423652783,
+    "duration" : 22965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a70204a7b20b0795",
+  "name" : "Verify Social Media Navigation from Contact Information",
+  "time" : {
+    "start" : 1694415420950,
+    "stop" : 1694415453128,
+    "duration" : 32178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b2089cc6fceaf3e",
+  "name" : "Verify Social Media Navigation from Contact",
+  "time" : {
+    "start" : 1694417855627,
+    "stop" : 1694417875891,
+    "duration" : 20264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

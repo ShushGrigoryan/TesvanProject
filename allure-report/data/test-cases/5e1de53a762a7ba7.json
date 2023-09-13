@@ -1,0 +1,422 @@
+{
+  "uid" : "5e1de53a762a7ba7",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:23",
+  "historyId" : "93f9b482c1788ba1e1bdcc6433bc3041",
+  "time" : {
+    "start" : 1694380325706,
+    "stop" : 1694380343411,
+    "duration" : 17705
+  },
+  "status" : "broken",
+  "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 23,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694380325713,
+      "stop" : 1694380328579,
+      "duration" : 2866
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694380328593,
+        "stop" : 1694380332962,
+        "duration" : 4369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694380332963,
+        "stop" : 1694380343098,
+        "duration" : 10135
+      },
+      "status" : "broken",
+      "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'ContactModal_close__KCzRf')]\"}\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [048795879944665c3a6514dc55fbf6a4, findElement {using=xpath, value=//div[contains(@class, 'ContactModal_close__KCzRf')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 048795879944665c3a6514dc55fbf6a4\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.HomePage.closeButton(HomePage.java:33)\n\tat StepDefinitions.HomePageSteps.modal_is_closed(HomePageSteps.java:37)\n\tat ✽.The modal is closed(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:8)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694380343131,
+        "stop" : 1694380343147,
+        "duration" : 16
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"ScroolDown\" button",
+      "time" : {
+        "start" : 1694380343150,
+        "stop" : 1694380343165,
+        "duration" : 15
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Upwork\" button",
+      "time" : {
+        "start" : 1694380343167,
+        "stop" : 1694380343171,
+        "duration" : 4
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.upwork.com/ag/tesvan/\" page",
+      "time" : {
+        "start" : 1694380343179,
+        "stop" : 1694380343183,
+        "duration" : 4
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694380343190,
+      "stop" : 1694380343391,
+      "duration" : 201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "253950@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.upwork.com/ag/tesvan/"
+  }, {
+    "name" : "social_media",
+    "value" : "Upwork"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1f46b65bd8112b7",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.\n  (Session info: chrome=116.0.5845.179)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9cc82d93d30003e82763d481636cac23, findElement {using=xpath, value=}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.179 (17ff023f3eb..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:45689/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9cc82d93d30003e82763d481636cac23",
+      "time" : {
+        "start" : 1694380115575,
+        "stop" : 1694380136288,
+        "duration" : 20713
+      }
+    }, {
+      "uid" : "3a0ea980f80e1b50",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"HeaderContent_scrollIcon__FWW7K\"> is not clickable at point (924,8) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [67320d86-2973-428a-868b-cbaa12b695e5, clickElement {id=25ae54ed-fcf1-47b1-a956-10ccfcf881b8}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:29012, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 101321, moz:profile: /tmp/rust_mozprofilewoPUAL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:29012/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (67320d86-2973-428a-868b-cbaa12b695e5)] -> xpath: //div[contains(@class, 'HeaderContent_scrollIcon__')]]\nSession ID: 67320d86-2973-428a-868b-cbaa12b695e5",
+      "time" : {
+        "start" : 1694286391204,
+        "stop" : 1694286414149,
+        "duration" : 22945
+      }
+    }, {
+      "uid" : "48757479964ec6e8",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"HeaderContent_scrollIcon__FWW7K\"> is not clickable at point (924,8) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [1ab58cca-530e-45b6-87b6-89f1dfc55bbb, clickElement {id=beec0094-7c73-4b2d-a39c-309c4e1b9b2b}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:1452, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 99564, moz:profile: /tmp/rust_mozprofileNfARmR, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:1452/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (1ab58cca-530e-45b6-87b6-89f1dfc55bbb)] -> xpath: //div[contains(@class, 'HeaderContent_scrollIcon__')]]\nSession ID: 1ab58cca-530e-45b6-87b6-89f1dfc55bbb",
+      "time" : {
+        "start" : 1694286217814,
+        "stop" : 1694286243226,
+        "duration" : 25412
+      }
+    }, {
+      "uid" : "d5967c2ffae4f04e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on linux (1a661594-a214-4018-aa73-074ddb59a3b3)] -> xpath: //div[@class='LinkIcons_icons__HE8HC ContactInfo_icons__1syNe']//div[@class='LinkIcons_upwork__tsq_5']] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7129, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 95884, moz:profile: /tmp/rust_mozprofilea8JCnO, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7129/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1a661594-a214-4018-aa73-074ddb59a3b3",
+      "time" : {
+        "start" : 1694285810597,
+        "stop" : 1694285844848,
+        "duration" : 34251
+      }
+    }, {
+      "uid" : "8a5bbd986e2db621",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_upwork__tsq_5\"> is not clickable at point (1093,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [56d8033c-3758-4dcf-b187-ef5af47d1261, clickElement {id=6f44937f-f5fa-45bf-a133-557692d42a3d}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:8472, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 93713, moz:profile: /tmp/rust_mozprofilevvOE59, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:8472/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (56d8033c-3758-4dcf-b187-ef5af47d1261)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]]\nSession ID: 56d8033c-3758-4dcf-b187-ef5af47d1261",
+      "time" : {
+        "start" : 1694285556409,
+        "stop" : 1694285580458,
+        "duration" : 24049
+      }
+    }, {
+      "uid" : "b2bf3d58eb25afe4",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_upwork__tsq_5\"> is not clickable at point (1093,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [8df11212-c4dd-44f4-ad04-883e5527c68a, clickElement {id=bb75333d-a9d6-418f-b094-d6061d411c2e}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:27205, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 92374, moz:profile: /tmp/rust_mozprofileQq3tWo, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:27205/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (8df11212-c4dd-44f4-ad04-883e5527c68a)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]]\nSession ID: 8df11212-c4dd-44f4-ad04-883e5527c68a",
+      "time" : {
+        "start" : 1694285480836,
+        "stop" : 1694285504218,
+        "duration" : 23382
+      }
+    }, {
+      "uid" : "7b0c271e970c2bd",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_upwork__tsq_5\"> is not clickable at point (1093,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [942247e6-308c-4b6b-95f4-704fd205d673, clickElement {id=0fb93620-ee77-4828-b5ba-b9d41073c802}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7526, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 86950, moz:profile: /tmp/rust_mozprofileV33xfm, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7526/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (942247e6-308c-4b6b-95f4-704fd205d673)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]]\nSession ID: 942247e6-308c-4b6b-95f4-704fd205d673",
+      "time" : {
+        "start" : 1694285096893,
+        "stop" : 1694285123172,
+        "duration" : 26279
+      }
+    }, {
+      "uid" : "2c1d6b61b8403906",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_upwork__tsq_5\"> is not clickable at point (1093,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7bba1fea-3a76-459b-b302-290830a2da80, clickElement {id=a71259e1-218b-46f8-8248-86299603def0}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13066, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 62752, moz:profile: /tmp/rust_mozprofileti5K0H, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13066/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (7bba1fea-3a76-459b-b302-290830a2da80)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]]\nSession ID: 7bba1fea-3a76-459b-b302-290830a2da80",
+      "time" : {
+        "start" : 1694279605865,
+        "stop" : 1694279629995,
+        "duration" : 24130
+      }
+    }, {
+      "uid" : "f980851291616986",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"HeaderContent_scrollIcon__FWW7K\"> is not clickable at point (924,8) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [8341a8ef-01f9-4726-a1c6-b10cacdd3a78, clickElement {id=b4dc1933-b5a7-413d-ac99-9417bfeca3bb}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20687, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 61470, moz:profile: /tmp/rust_mozprofile3nnLFw, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:20687/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (8341a8ef-01f9-4726-a1c6-b10cacdd3a78)] -> xpath: //div[contains(@class, 'HeaderContent_scrollIcon__')]]\nSession ID: 8341a8ef-01f9-4726-a1c6-b10cacdd3a78",
+      "time" : {
+        "start" : 1694279534621,
+        "stop" : 1694279559884,
+        "duration" : 25263
+      }
+    }, {
+      "uid" : "c2cbd494fec34e8f",
+      "status" : "broken",
+      "statusDetails" : "Given css selector expression \"//div[contains(@class, 'HeaderContent_scrollIcon__')]\" is invalid: InvalidSelectorError: Document.querySelector: '//div[contains(@class, 'HeaderContent_scrollIcon__')]' is not a valid selector: \"//div[contains(@class, 'HeaderContent_scrollIcon__')]\"\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [458ad24d-0f64-4565-a61a-2e0bd56a5383, findElement {using=css selector, value=//div[contains(@class, 'HeaderContent_scrollIcon__')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13133, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 60180, moz:profile: /tmp/rust_mozprofileDXyNns, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13133/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 458ad24d-0f64-4565-a61a-2e0bd56a5383",
+      "time" : {
+        "start" : 1694279461346,
+        "stop" : 1694279485313,
+        "duration" : 23967
+      }
+    }, {
+      "uid" : "72859f0d52fd6d0e",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [6c46da44-2a70-4ccc-83aa-d266365e5c52, clickElement {id=51b756ed-d94a-44c3-ab3c-e5e68a02c6d8}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16850, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 58602, moz:profile: /tmp/rust_mozprofileROpFZR, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16850/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (6c46da44-2a70-4ccc-83aa-d266365e5c52)] -> css selector: #headerButton]\nSession ID: 6c46da44-2a70-4ccc-83aa-d266365e5c52",
+      "time" : {
+        "start" : 1694279316795,
+        "stop" : 1694279341037,
+        "duration" : 24242
+      }
+    }, {
+      "uid" : "628a4bee813978a8",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2a06a96c-447b-44f2-997f-19caf30a4a57, clickElement {id=665e8892-138a-4c8d-b2af-e8ec62306ecf}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:21152, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 57264, moz:profile: /tmp/rust_mozprofilekFryXX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:21152/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (2a06a96c-447b-44f2-997f-19caf30a4a57)] -> css selector: #headerButton]\nSession ID: 2a06a96c-447b-44f2-997f-19caf30a4a57",
+      "time" : {
+        "start" : 1694279233707,
+        "stop" : 1694279257878,
+        "duration" : 24171
+      }
+    }, {
+      "uid" : "1efca5fb65e21a10",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [8cc96259-648f-45f2-ac00-37baf512d13d, clickElement {id=dfdfc479-e332-422c-b2d8-d817100cddc9}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7865, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 55843, moz:profile: /tmp/rust_mozprofileKOIZoj, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7865/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (8cc96259-648f-45f2-ac00-37baf512d13d)] -> css selector: #headerButton]\nSession ID: 8cc96259-648f-45f2-ac00-37baf512d13d",
+      "time" : {
+        "start" : 1694279140500,
+        "stop" : 1694279164587,
+        "duration" : 24087
+      }
+    }, {
+      "uid" : "e8473a3df04917a9",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d19999fd-9be6-420e-8820-367c561a4d8f, clickElement {id=240dd69f-e743-44db-a6c6-493ef751488d}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18251, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 52998, moz:profile: /tmp/rust_mozprofileMw1hvX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18251/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (d19999fd-9be6-420e-8820-367c561a4d8f)] -> css selector: #headerButton]\nSession ID: d19999fd-9be6-420e-8820-367c561a4d8f",
+      "time" : {
+        "start" : 1694278770205,
+        "stop" : 1694278794407,
+        "duration" : 24202
+      }
+    }, {
+      "uid" : "b3ea938a15841b1d",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [45f22398-bdc6-4f8b-8fee-5a8e660c3821, clickElement {id=55778444-5dc3-4df4-837b-2ed21dc49a8d}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:15247, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 50980, moz:profile: /tmp/rust_mozprofileZZA4Co, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:15247/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (45f22398-bdc6-4f8b-8fee-5a8e660c3821)] -> css selector: #headerButton]\nSession ID: 45f22398-bdc6-4f8b-8fee-5a8e660c3821",
+      "time" : {
+        "start" : 1694278581024,
+        "stop" : 1694278605334,
+        "duration" : 24310
+      }
+    }, {
+      "uid" : "45d7eda0553604d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[1]/div[5]/div[1]/div[1]/button[1] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1694278459712,
+        "stop" : 1694278495235,
+        "duration" : 35523
+      }
+    }, {
+      "uid" : "8ab5615c4dafa16c",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [16cef483-fe4c-42ef-ba84-82edaa020c13, clickElement {id=10d3e22a-592f-4ded-b45a-c1583db56e44}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:15220, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 46669, moz:profile: /tmp/rust_mozprofilemuVyiY, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:15220/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (16cef483-fe4c-42ef-ba84-82edaa020c13)] -> xpath: //div[6]/div[1]/div[1]/button]\nSession ID: 16cef483-fe4c-42ef-ba84-82edaa020c13",
+      "time" : {
+        "start" : 1694278007464,
+        "stop" : 1694278030257,
+        "duration" : 22793
+      }
+    }, {
+      "uid" : "c2329c43709fe797",
+      "status" : "skipped",
+      "statusDetails" : "geckodriver located at /home/david/geckodriver, but invalid\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1694277997539,
+        "stop" : 1694277997627,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "f0f65e45738fda43",
+      "status" : "skipped",
+      "statusDetails" : "'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'",
+      "time" : {
+        "start" : 1694277469165,
+        "stop" : 1694277469238,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "434c4b1f2fb26371",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [74f1a516-f5b9-4ca2-aceb-762a3ff463c7, clickElement {id=aec28bbe-e675-44b1-af99-e2e1e19d6191}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7343, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 39949, moz:profile: /tmp/rust_mozprofileMcHCv0, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7343/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (74f1a516-f5b9-4ca2-aceb-762a3ff463c7)] -> xpath: //div[6]/div[1]/div[1]/button]\nSession ID: 74f1a516-f5b9-4ca2-aceb-762a3ff463c7",
+      "time" : {
+        "start" : 1694277284682,
+        "stop" : 1694277309831,
+        "duration" : 25149
+      }
+    }, {
+      "uid" : "f6721d6b42333592",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [0b4df332-44b0-4394-86a1-5ef0aca12ee7, clickElement {id=bc232ad7-e4fe-4c4f-899f-426bbf9c0a6d}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:22850, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 38814, moz:profile: /tmp/rust_mozprofileCxC1Cb, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:22850/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (0b4df332-44b0-4394-86a1-5ef0aca12ee7)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: 0b4df332-44b0-4394-86a1-5ef0aca12ee7",
+      "time" : {
+        "start" : 1694277189158,
+        "stop" : 1694277213559,
+        "duration" : 24401
+      }
+    }, {
+      "uid" : "3a9f9a918207c1d1",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"LinkIcons_upwork__tsq_5\"> is not clickable at point (1093,20) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [e61bb886-6433-4db1-867b-181ee76628b9, clickElement {id=cc357ebd-b696-4aaa-b9f1-c87539d3b566}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:2739, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 37142, moz:profile: /tmp/rust_mozprofileJuWmRR, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2739/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (e61bb886-6433-4db1-867b-181ee76628b9)] -> xpath: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]]\nSession ID: e61bb886-6433-4db1-867b-181ee76628b9",
+      "time" : {
+        "start" : 1694277046627,
+        "stop" : 1694277069956,
+        "duration" : 23329
+      }
+    }, {
+      "uid" : "cd2d83a5f355f90e",
+      "status" : "broken",
+      "statusDetails" : "Element <button id=\"headerButton\" class=\"Button_button__k9F7A Button_yellow__zUx2d HeaderContent_button__BVGX_ undefined Button_eng__VMlwB\" type=\"button\"> is not clickable at point (923,30) because another element <nav class=\"MenuItems_itemsNav__iv9jh\"> obscures it\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [97cb4678-985e-4d54-b302-228c4634424c, clickElement {id=5069b6df-1b87-4bb5-acc7-e5c3e0ae6471}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:30006, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 34834, moz:profile: /tmp/rust_mozprofileU9mqIB, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:30006/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (97cb4678-985e-4d54-b302-228c4634424c)] -> xpath: //html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/button[1]]\nSession ID: 97cb4678-985e-4d54-b302-228c4634424c",
+      "time" : {
+        "start" : 1694276742436,
+        "stop" : 1694276767312,
+        "duration" : 24876
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "test" ]
+  },
+  "source" : "5e1de53a762a7ba7.json",
+  "parameterValues" : [ "https://www.upwork.com/ag/tesvan/", "Upwork" ]
+}

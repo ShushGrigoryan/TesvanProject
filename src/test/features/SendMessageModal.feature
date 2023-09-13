@@ -1,5 +1,4 @@
 
-
 Feature: As A user I want to send message
 
     Background:
@@ -29,7 +28,6 @@ Feature: As A user I want to send message
         And I check the I agree to checkbox
         And I click on the "send_message" button
         Then I should see the input error "Email is invalid"
-
 
 
     Scenario: Send a message with invalid description less than 20 characters

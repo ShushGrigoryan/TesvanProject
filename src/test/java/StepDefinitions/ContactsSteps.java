@@ -1,11 +1,8 @@
 package StepDefinitions;
 
 import org.junit.jupiter.api.Assertions;
-// import org.openqa.selenium.WebElement;
-
 import BaseClass.BaseClass;
 import PageObject.Contacts;
-
 import io.cucumber.java.en.*;
 
 public class ContactsSteps extends Contacts {
@@ -15,14 +12,13 @@ public class ContactsSteps extends Contacts {
     }
 
 
-
     @Then("I should see the succsessfuly message {string} on Contacts page")
     public void verify_successful_message(String responseSuccessMesage) {
         Assertions.assertTrue(super.ResponseMessageFromContacts(responseSuccessMesage));
 
     }
 
-    @When("I check the I agree to checkbox From Contacts")
+    @And("I check the I agree to checkbox From Contacts")
     public void check_checkbox() {
         super.checkboxFromContacts();
     }
@@ -32,7 +28,6 @@ public class ContactsSteps extends Contacts {
         String actualErrorMessage = super.emailInputError(expectedErrorMessage);
         Assertions.assertEquals(expectedErrorMessage, actualErrorMessage);
     }
-
 
 
     @Then("I should see the text area error {string}")

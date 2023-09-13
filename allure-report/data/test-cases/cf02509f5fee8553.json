@@ -1,0 +1,569 @@
+{
+  "uid" : "cf02509f5fee8553",
+  "name" : "Send a message with valid data",
+  "fullName" : "src/test/features/Contacts.feature:13",
+  "historyId" : "882e5a0f8329582bf310c653248ddda8",
+  "time" : {
+    "start" : 1694242600024,
+    "stop" : 1694242631103,
+    "duration" : 31079
+  },
+  "status" : "broken",
+  "statusMessage" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:33)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 30,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694242600027,
+      "stop" : 1694242604889,
+      "duration" : 4862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:33)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694242604894,
+        "stop" : 1694242621436,
+        "duration" : 16542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694242621439,
+        "stop" : 1694242622571,
+        "duration" : 1132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694242622571,
+        "stop" : 1694242622910,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I scrool down page",
+      "time" : {
+        "start" : 1694242622911,
+        "stop" : 1694242622944,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Full_Name\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694242622946,
+        "stop" : 1694242623877,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Email\" field with \"email@test.com\" value",
+      "time" : {
+        "start" : 1694242623878,
+        "stop" : 1694242624013,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Phone\" field with \"123456789\" value",
+      "time" : {
+        "start" : 1694242624016,
+        "stop" : 1694242624144,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Company\" field with \"testCompany\" value",
+      "time" : {
+        "start" : 1694242624146,
+        "stop" : 1694242624240,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"Description\" field with \"testingtestingtestingtesting\" value",
+      "time" : {
+        "start" : 1694242624243,
+        "stop" : 1694242624399,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I check the I agree to checkbox From Contacts",
+      "time" : {
+        "start" : 1694242624400,
+        "stop" : 1694242624689,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Send_Message\" button",
+      "time" : {
+        "start" : 1694242624690,
+        "stop" : 1694242624806,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page",
+      "time" : {
+        "start" : 1694242624806,
+        "stop" : 1694242629846,
+        "duration" : 5040
+      },
+      "status" : "broken",
+      "statusMessage" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [52c68b3d-46ce-4184-b475-d8a4e3bf4032, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:3547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 7235, moz:profile: /tmp/rust_mozprofileYh23SJ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:3547/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 52c68b3d-46ce-4184-b475-d8a4e3bf4032\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat PageObject.Contacts.ResponseMessageFromContacts(Contacts.java:33)\n\tat StepDefinitions.ContactsSteps.verify_successful_message(ContactsSteps.java:28)\n\tat ✽.I should see the succsessfuly message \"Your message has been sent successfully.\" on Contacts page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:24)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694242629853,
+      "stop" : 1694242631088,
+      "duration" : 1235
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "7172@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Send a message with valid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91a4cc027cd15bc8",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [bfa97431-b9b4-49d9-a179-a3c5de73addb, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13862, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 6530, moz:profile: /tmp/rust_mozprofileHzWGLj, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13862/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bfa97431-b9b4-49d9-a179-a3c5de73addb",
+      "time" : {
+        "start" : 1694242522532,
+        "stop" : 1694242554021,
+        "duration" : 31489
+      }
+    }, {
+      "uid" : "78d869db286f44de",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7d00bb3d-e7fe-4131-96f9-9909f0bac6dc, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:29870, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 97422, moz:profile: /tmp/rust_mozprofilee3Ycws, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:29870/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7d00bb3d-e7fe-4131-96f9-9909f0bac6dc",
+      "time" : {
+        "start" : 1694206834684,
+        "stop" : 1694206865532,
+        "duration" : 30848
+      }
+    }, {
+      "uid" : "65d57fab49da1eac",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [5508c746-956b-4430-a470-192d11c01fc9, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:18571, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 96813, moz:profile: /tmp/rust_mozprofile0BZ76D, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18571/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5508c746-956b-4430-a470-192d11c01fc9",
+      "time" : {
+        "start" : 1694206788409,
+        "stop" : 1694206820462,
+        "duration" : 32053
+      }
+    }, {
+      "uid" : "ffc880359f3ac385",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1694204378012,
+        "stop" : 1694204401754,
+        "duration" : 23742
+      }
+    }, {
+      "uid" : "ff4bab372eaa81d2",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [153fcceb-1e37-4bb2-8844-05f352a34494, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:2524, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 81424, moz:profile: /tmp/rust_mozprofileciPkwP, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2524/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 153fcceb-1e37-4bb2-8844-05f352a34494",
+      "time" : {
+        "start" : 1694203735872,
+        "stop" : 1694203764346,
+        "duration" : 28474
+      }
+    }, {
+      "uid" : "cc98f80376bf45a7",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/div[1]/input[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [f4bbfc6b-2a57-47c2-9efd-597eac9ac45d, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/div[1]/input[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:10492, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 80872, moz:profile: /tmp/rust_mozprofileknBx0E, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:10492/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f4bbfc6b-2a57-47c2-9efd-597eac9ac45d",
+      "time" : {
+        "start" : 1694203691368,
+        "stop" : 1694203723748,
+        "duration" : 32380
+      }
+    }, {
+      "uid" : "5183197a66d00fc2",
+      "status" : "broken",
+      "statusDetails" : "Argument is of an illegal type: org.openqa.selenium.By$ByXPath",
+      "time" : {
+        "start" : 1694203512624,
+        "stop" : 1694203536568,
+        "duration" : 23944
+      }
+    }, {
+      "uid" : "8df5a385809764e2",
+      "status" : "broken",
+      "statusDetails" : "Argument is of an illegal type: org.openqa.selenium.By$ByXPath",
+      "time" : {
+        "start" : 1694203292981,
+        "stop" : 1694203316652,
+        "duration" : 23671
+      }
+    }, {
+      "uid" : "b98106e6d9fb94a2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:31537, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 77236, moz:profile: /tmp/rust_mozprofilepW5MwI, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:31537/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c5f65305-fd16-4dab-b163-22141edce437",
+      "time" : {
+        "start" : 1694203142779,
+        "stop" : 1694203177069,
+        "duration" : 34290
+      }
+    }, {
+      "uid" : "becbd52e30e9b9cc",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:22403, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 76059, moz:profile: /tmp/rust_mozprofilehfg7kD, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:22403/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f9d54d7e-f560-454f-b4a3-956dec05146a",
+      "time" : {
+        "start" : 1694202957222,
+        "stop" : 1694202994345,
+        "duration" : 37123
+      }
+    }, {
+      "uid" : "9e876b276bf31bf6",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [434ca926-9619-4d1d-8ed7-e51c44077c5c, findElement {using=xpath, value=//html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:11716, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 75202, moz:profile: /tmp/rust_mozprofileTh8CxX, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:11716/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 434ca926-9619-4d1d-8ed7-e51c44077c5c",
+      "time" : {
+        "start" : 1694202842862,
+        "stop" : 1694202871818,
+        "duration" : 28956
+      }
+    }, {
+      "uid" : "387284c8504fe4f6",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [cb08a362-8339-4dfb-a953-425f48e72322, findElement {using=xpath, value=//html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:21911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 74574, moz:profile: /tmp/rust_mozprofileNSljwE, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:21911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: cb08a362-8339-4dfb-a953-425f48e72322",
+      "time" : {
+        "start" : 1694202776878,
+        "stop" : 1694202806190,
+        "duration" : 29312
+      }
+    }, {
+      "uid" : "c72e5084bf4e5ee7",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [104e53a5-1384-4c1d-aaa8-3dcfc7891b6b, findElement {using=xpath, value=//html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:5629, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 73890, moz:profile: /tmp/rust_mozprofileoq7YC7, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:5629/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 104e53a5-1384-4c1d-aaa8-3dcfc7891b6b",
+      "time" : {
+        "start" : 1694202700883,
+        "stop" : 1694202730287,
+        "duration" : 29404
+      }
+    }, {
+      "uid" : "a0aa0cb72e704248",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [06868976-09c3-4101-99a9-425177cd5306, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[7]/div[1]/div[1]/button[1]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7197, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 73309, moz:profile: /tmp/rust_mozprofileIuRi6u, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7197/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 06868976-09c3-4101-99a9-425177cd5306",
+      "time" : {
+        "start" : 1694202652194,
+        "stop" : 1694202681201,
+        "duration" : 29007
+      }
+    }, {
+      "uid" : "31de21f4f57b3cba",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"ContactModal_close__KCzRf\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3a50f47e-e853-4710-92d9-d52ea8aaf6d3, clickElement {id=80e33fce-0e3a-41f1-8c52-6c85dcbe7dbd}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:11908, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 72386, moz:profile: /tmp/rust_mozprofilejjpLCv, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:11908/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (3a50f47e-e853-4710-92d9-d52ea8aaf6d3)] -> xpath: //div[contains(@class, 'ContactModal_close__KCzRf')]]\nSession ID: 3a50f47e-e853-4710-92d9-d52ea8aaf6d3",
+      "time" : {
+        "start" : 1694202525661,
+        "stop" : 1694202546859,
+        "duration" : 21198
+      }
+    }, {
+      "uid" : "515cd58c03d29a01",
+      "status" : "skipped",
+      "statusDetails" : "Undefined Step. Please add step definition",
+      "time" : {
+        "start" : 1694202313408,
+        "stop" : 1694202336605,
+        "duration" : 23197
+      }
+    }, {
+      "uid" : "97a31384e7ea8ced",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [98581dfb-a1d0-48f5-b68f-1ddd06c91505, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:25683, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 66397, moz:profile: /tmp/rust_mozprofile1CcuH1, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:25683/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 98581dfb-a1d0-48f5-b68f-1ddd06c91505",
+      "time" : {
+        "start" : 1694201416684,
+        "stop" : 1694201445581,
+        "duration" : 28897
+      }
+    }, {
+      "uid" : "a46b3033dc157ea9",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [7db8640a-79d3-4da1-97d3-48f12ed1bb77, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:13701, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 65524, moz:profile: /tmp/rust_mozprofile84b7ay, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13701/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7db8640a-79d3-4da1-97d3-48f12ed1bb77",
+      "time" : {
+        "start" : 1694201316277,
+        "stop" : 1694201344853,
+        "duration" : 28576
+      }
+    }, {
+      "uid" : "29e1440441c6045",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d630a748-e797-4be6-9c9d-06dc82b5df78, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:32159, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 64787, moz:profile: /tmp/rust_mozprofileo7p5H0, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:32159/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d630a748-e797-4be6-9c9d-06dc82b5df78",
+      "time" : {
+        "start" : 1694201234922,
+        "stop" : 1694201264139,
+        "duration" : 29217
+      }
+    }, {
+      "uid" : "f67a84519013eb45",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: /html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [6f00a282-31df-4591-98e0-9ffe4588e71f, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1][contains(text(),'Your message has been sent successfully.')][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:22733, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 63921, moz:profile: /tmp/rust_mozprofileR8Z3Vl, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:22733/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6f00a282-31df-4591-98e0-9ffe4588e71f",
+      "time" : {
+        "start" : 1694201132094,
+        "stop" : 1694201155825,
+        "duration" : 23731
+      }
+    }, {
+      "uid" : "74d825fe4e6e069d",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[1][contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [f9c52f2c-4c83-4a05-a1d0-e490dc395b4d, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[1][contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7511, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 63344, moz:profile: /tmp/rust_mozprofileNWy5ez, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7511/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f9c52f2c-4c83-4a05-a1d0-e490dc395b4d",
+      "time" : {
+        "start" : 1694201079114,
+        "stop" : 1694201102499,
+        "duration" : 23385
+      }
+    }, {
+      "uid" : "f502377c2884288f",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [69f908ab-c031-4691-b00e-ebdb14457cae, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:6906, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 60905, moz:profile: /tmp/rust_mozprofileZAODGH, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:6906/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 69f908ab-c031-4691-b00e-ebdb14457cae",
+      "time" : {
+        "start" : 1694200577249,
+        "stop" : 1694200600926,
+        "duration" : 23677
+      }
+    }, {
+      "uid" : "403f7c6f16919f6b",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d34340c2-0a5e-4254-8adf-f5adc9292add, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:17147, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 60390, moz:profile: /tmp/rust_mozprofile6CqldP, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:17147/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d34340c2-0a5e-4254-8adf-f5adc9292add",
+      "time" : {
+        "start" : 1694200539073,
+        "stop" : 1694200562892,
+        "duration" : 23819
+      }
+    }, {
+      "uid" : "7bdd679b7561b712",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [d0c62dff-6f01-4996-bfbe-f60c744e59e8, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:25794, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 59556, moz:profile: /tmp/rust_mozprofile2fvO9A, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:25794/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d0c62dff-6f01-4996-bfbe-f60c744e59e8",
+      "time" : {
+        "start" : 1694200434550,
+        "stop" : 1694200458483,
+        "duration" : 23933
+      }
+    }, {
+      "uid" : "b9363db570537097",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [80645b48-9d08-472d-876f-61f55cde6252, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:14035, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 58739, moz:profile: /tmp/rust_mozprofileNiaVJW, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:14035/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 80645b48-9d08-472d-876f-61f55cde6252",
+      "time" : {
+        "start" : 1694200337769,
+        "stop" : 1694200361520,
+        "duration" : 23751
+      }
+    }, {
+      "uid" : "e8dd0a87e688ee3b",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [078edaed-4a09-46ac-b029-d6281ede5558, findElement {using=xpath, value=//div[contains(@class,'Contact_container__')]//p[contains(text(),' Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:6997, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 57043, moz:profile: /tmp/rust_mozprofileMQOiV7, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:6997/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 078edaed-4a09-46ac-b029-d6281ede5558",
+      "time" : {
+        "start" : 1694200040744,
+        "stop" : 1694200071721,
+        "duration" : 30977
+      }
+    }, {
+      "uid" : "d6ce1403dae42e84",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [df5d8cc3-5d54-49ca-9fbf-addfe182405c, findElement {using=xpath, value=//div[contains(@class,'Contact_container__KZnxh')]//p[contains(text(),'Your message has been sent successfully.')]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20550, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 56103, moz:profile: /tmp/rust_mozprofilew4BkUH, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:20550/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: df5d8cc3-5d54-49ca-9fbf-addfe182405c",
+      "time" : {
+        "start" : 1694199910523,
+        "stop" : 1694199940171,
+        "duration" : 29648
+      }
+    }, {
+      "uid" : "62af1c03e8b1f9d2",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()='Your message has been sent successfully.']\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [ce3a3861-5da5-4831-85ba-d0e1df24fbe7, findElement {using=xpath, value=//div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()='Your message has been sent successfully.']}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16806, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 53996, moz:profile: /tmp/rust_mozprofileU86bTB, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16806/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ce3a3861-5da5-4831-85ba-d0e1df24fbe7",
+      "time" : {
+        "start" : 1694199534368,
+        "stop" : 1694199564073,
+        "duration" : 29705
+      }
+    }, {
+      "uid" : "a3b8e92b090f798",
+      "status" : "broken",
+      "statusDetails" : "Element <input class=\"Checkbox_input__kAOD_\" type=\"checkbox\"> could not be scrolled into view\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [5eef2ed6-ac0f-42bf-bbb6-14e0bb533d8b, clickElement {id=f2d8fcab-2a40-4747-baf4-3cb2dfb6a348}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:16257, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 51752, moz:profile: /tmp/rust_mozprofileuARKI3, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:16257/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on linux (5eef2ed6-ac0f-42bf-bbb6-14e0bb533d8b)] -> xpath: //body/div[@id='__next']/div[contains(@class,'')]/div[contains(@class,'')]/div[@class='ContactForm_container__7Fof9']/form[@class='ContactForm_form__TDamm']/div[@class='ContactForm_control__w9zQ_']/label[@class='ContactForm_acceptLabel__VylH6']/div[@class='Checkbox_checkbox__hWVxe ContactForm_checkbox__qhIHk']/input[1]]\nSession ID: 5eef2ed6-ac0f-42bf-bbb6-14e0bb533d8b",
+      "time" : {
+        "start" : 1694199202272,
+        "stop" : 1694199227213,
+        "duration" : 24941
+      }
+    }, {
+      "uid" : "fb7603be01fe4596",
+      "status" : "broken",
+      "statusDetails" : "Unable to locate element: //div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()='Your message has been sent successfully.']\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.11.0', revision: '040bc5406b'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-83-generic', java.version: '11.0.20.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [a570e66a-1fd1-4902-9d84-edd12aa692c4, findElement {using=xpath, value=//div[8]/div/div/div/div/div[1]/div[3]/p[normalize-space()='Your message has been sent successfully.']}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:28427, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.0-83-generic, moz:processID: 18021, moz:profile: /tmp/rust_mozprofilebS2WGv, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:28427/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a570e66a-1fd1-4902-9d84-edd12aa692c4",
+      "time" : {
+        "start" : 1694193662070,
+        "stop" : 1694193695065,
+        "duration" : 32995
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "test" ]
+  },
+  "source" : "cf02509f5fee8553.json",
+  "parameterValues" : [ ]
+}

@@ -19,7 +19,6 @@ public class HomePageSteps extends HomePage {
         super.homePage();
         Assertions.assertTrue(super.homePageOpens());
         base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
     };
 
     @When("I click on the close button from modal")
@@ -48,13 +47,11 @@ public class HomePageSteps extends HomePage {
             default:
                 Assertions.fail("Unsupported social media: " + selectedLanguage);
         }
-
     }
 
     @Then("I see that the page URL should be contain the {string}")
     public void iSeeThatThePageURLShouldContain(String expectedLanguage) {
-        String currentURL = super.urlContains(expectedLanguage); // Call the urlContains method to get the current URL
-        System.out.println(currentURL);
+        String currentURL = super.urlContains(expectedLanguage);
         Assertions.assertTrue(currentURL.contains(expectedLanguage));
     }
 

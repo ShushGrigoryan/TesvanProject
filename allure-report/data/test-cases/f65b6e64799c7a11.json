@@ -1,0 +1,209 @@
+{
+  "uid" : "f65b6e64799c7a11",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:21",
+  "historyId" : "a9113ab35128dd962a4da4e65a9d8427",
+  "time" : {
+    "start" : 1694417641805,
+    "stop" : 1694417661697,
+    "duration" : 19892
+  },
+  "status" : "broken",
+  "statusMessage" : "Index 1 out of bounds for length 1",
+  "statusTrace" : "java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:372)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:459)\n\tat PageObject.SendMessageModal.verifyCurrentUrl(SendMessageModal.java:88)\n\tat StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(MessageSteps.java:57)\n\tat ✽.I should be navigate on \"https://www.linkedin.com/company/tesvan\" page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:16)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694417641806,
+      "stop" : 1694417642643,
+      "duration" : 837
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Index 1 out of bounds for length 1",
+    "statusTrace" : "java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:372)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:459)\n\tat PageObject.SendMessageModal.verifyCurrentUrl(SendMessageModal.java:88)\n\tat StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(MessageSteps.java:57)\n\tat ✽.I should be navigate on \"https://www.linkedin.com/company/tesvan\" page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:16)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694417642644,
+        "stop" : 1694417659387,
+        "duration" : 16743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694417659389,
+        "stop" : 1694417660292,
+        "duration" : 903
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694417660295,
+        "stop" : 1694417660469,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I \"ScroolDown\" the page",
+      "time" : {
+        "start" : 1694417660470,
+        "stop" : 1694417661358,
+        "duration" : 888
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Linkedin\" button",
+      "time" : {
+        "start" : 1694417661361,
+        "stop" : 1694417661534,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.linkedin.com/company/tesvan\" page",
+      "time" : {
+        "start" : 1694417661535,
+        "stop" : 1694417661539,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "Index 1 out of bounds for length 1",
+      "statusTrace" : "java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:372)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:459)\n\tat PageObject.SendMessageModal.verifyCurrentUrl(SendMessageModal.java:88)\n\tat StepDefinitions.MessageSteps.i_should_be_on_social_media_profile_page(MessageSteps.java:57)\n\tat ✽.I should be navigate on \"https://www.linkedin.com/company/tesvan\" page(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature:16)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694417661541,
+      "stop" : 1694417661693,
+      "duration" : 152
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "40691@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.linkedin.com/company/tesvan"
+  }, {
+    "name" : "social_media",
+    "value" : "Linkedin"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "f65b6e64799c7a11.json",
+  "parameterValues" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+}

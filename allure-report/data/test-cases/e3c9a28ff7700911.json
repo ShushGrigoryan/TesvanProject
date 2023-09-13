@@ -1,0 +1,197 @@
+{
+  "uid" : "e3c9a28ff7700911",
+  "name" : "Verify page content in selected language",
+  "fullName" : "src/test/features/Languages.feature:18",
+  "historyId" : "435fbfdf4bcddf5003650db73e775711",
+  "time" : {
+    "start" : 1694248309423,
+    "stop" : 1694248331997,
+    "duration" : 22574
+  },
+  "status" : "failed",
+  "statusMessage" : "Unsupported social media: ARM",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: Unsupported social media: ARM\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)\n\tat org.junit.jupiter.api.Assertions.fail(Assertions.java:134)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:30)\n\tat ✽.I select a \"ARM\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694248309425,
+      "stop" : 1694248313186,
+      "duration" : 3761
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Unsupported social media: ARM",
+    "statusTrace" : "org.opentest4j.AssertionFailedError: Unsupported social media: ARM\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)\n\tat org.junit.jupiter.api.Assertions.fail(Assertions.java:134)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:30)\n\tat ✽.I select a \"ARM\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694248313188,
+        "stop" : 1694248329579,
+        "duration" : 16391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694248329586,
+        "stop" : 1694248330678,
+        "duration" : 1092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"ENG\" button",
+      "time" : {
+        "start" : 1694248330679,
+        "stop" : 1694248330695,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"ARM\" language",
+      "time" : {
+        "start" : 1694248330703,
+        "stop" : 1694248330711,
+        "duration" : 8
+      },
+      "status" : "failed",
+      "statusMessage" : "Unsupported social media: ARM",
+      "statusTrace" : "org.opentest4j.AssertionFailedError: Unsupported social media: ARM\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)\n\tat org.junit.jupiter.api.Assertions.fail(Assertions.java:134)\n\tat StepDefinitions.LanguagesSteps.iSelectALanguage(LanguagesSteps.java:30)\n\tat ✽.I select a \"ARM\" language(file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature:13)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I see that the page content should be displayed in the \"Armenian\" language",
+      "time" : {
+        "start" : 1694248330712,
+        "stop" : 1694248330715,
+        "duration" : 3
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694248330719,
+      "stop" : 1694248331983,
+      "duration" : 1264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "36784@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "story",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to change Language on Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify page content in selected language"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Languages.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Languages_feature.As a user I want to change Language on Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_language",
+    "value" : "Armenian"
+  }, {
+    "name" : "language",
+    "value" : "ENG"
+  }, {
+    "name" : "selected_language",
+    "value" : "ARM"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "e3c9a28ff7700911.json",
+  "parameterValues" : [ "Armenian", "ENG", "ARM" ]
+}

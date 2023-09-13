@@ -1,0 +1,211 @@
+{
+  "uid" : "93eb292b1cf31733",
+  "name" : "Verify Social Media Navigation from Contact",
+  "fullName" : "src/test/features/Contacts.feature:24",
+  "historyId" : "7f2069e1bc46e852db74f1ed08d82fd3",
+  "time" : {
+    "start" : 1694277469334,
+    "stop" : 1694277469350,
+    "duration" : 16
+  },
+  "status" : "skipped",
+  "statusMessage" : "'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'",
+  "statusTrace" : "java.lang.NoSuchMethodError: 'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.loadSystemProperties(GeckoDriverService.java:248)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:489)\n\tat org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:141)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)\n\tat StepDefinitions.Hooks.initDriver(Hooks.java:29)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694277469334,
+      "stop" : 1694277469339,
+      "duration" : 5
+    },
+    "status" : "broken",
+    "statusMessage" : "BEFORE is failed: 'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'",
+    "statusTrace" : "java.lang.NoSuchMethodError: 'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.loadSystemProperties(GeckoDriverService.java:248)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:489)\n\tat org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:141)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)\n\tat StepDefinitions.Hooks.initDriver(Hooks.java:29)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'",
+    "statusTrace" : "java.lang.NoSuchMethodError: 'void org.openqa.selenium.firefox.GeckoDriverService$Builder.parseLogOutput(java.lang.String)'\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.loadSystemProperties(GeckoDriverService.java:248)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:489)\n\tat org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:141)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)\n\tat StepDefinitions.Hooks.initDriver(Hooks.java:29)\n",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694277469340,
+        "stop" : 1694277469341,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694277469341,
+        "stop" : 1694277469342,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"Contacts\" button",
+      "time" : {
+        "start" : 1694277469342,
+        "stop" : 1694277469343,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"ScroolDown\" button",
+      "time" : {
+        "start" : 1694277469343,
+        "stop" : 1694277469344,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"Linkedin\" button",
+      "time" : {
+        "start" : 1694277469344,
+        "stop" : 1694277469344,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should be navigate on \"https://www.linkedin.com/company/tesvan\" page",
+      "time" : {
+        "start" : 1694277469345,
+        "stop" : 1694277469345,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694277469346,
+      "stop" : 1694277469347,
+      "duration" : 1
+    },
+    "status" : "broken",
+    "statusMessage" : "AFTER is failed: null",
+    "statusTrace" : "java.lang.NullPointerException\n\tat StepDefinitions.Hooks.teardown(Hooks.java:37)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "41916@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "story",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Social Media Navigation from Contact"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/Contacts.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.Contacts_feature.As A user I want to send message and navigate to social media pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_url",
+    "value" : "https://www.linkedin.com/company/tesvan"
+  }, {
+    "name" : "social_media",
+    "value" : "Linkedin"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "93eb292b1cf31733.json",
+  "parameterValues" : [ "https://www.linkedin.com/company/tesvan", "Linkedin" ]
+}

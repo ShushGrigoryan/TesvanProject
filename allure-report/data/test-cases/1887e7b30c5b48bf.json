@@ -1,0 +1,242 @@
+{
+  "uid" : "1887e7b30c5b48bf",
+  "name" : "User selects some language and switches back",
+  "fullName" : "src/test/features/HomePage.feature:35",
+  "historyId" : "52a3d5f0811f797ecac32b7890433251",
+  "time" : {
+    "start" : 1694423652797,
+    "stop" : 1694423675267,
+    "duration" : 22470
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694423652798,
+      "stop" : 1694423653707,
+      "duration" : 909
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694423653709,
+        "stop" : 1694423669941,
+        "duration" : 16232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The modal is closed",
+      "time" : {
+        "start" : 1694423669942,
+        "stop" : 1694423670942,
+        "duration" : 1000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click on the \"ENG\" button",
+      "time" : {
+        "start" : 1694423670943,
+        "stop" : 1694423671125,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select a \"Ru\" language",
+      "time" : {
+        "start" : 1694423671126,
+        "stop" : 1694423673123,
+        "duration" : 1997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/ru\"",
+      "time" : {
+        "start" : 1694423673125,
+        "stop" : 1694423673144,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I decides to switch back to the original language",
+      "time" : {
+        "start" : 1694423673144,
+        "stop" : 1694423674621,
+        "duration" : 1477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see that the page URL should be contain the \"/en\"",
+      "time" : {
+        "start" : 1694423674621,
+        "stop" : 1694423675158,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694423675159,
+      "stop" : 1694423675266,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "84323@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a user I want to check Home Page functionality"
+  }, {
+    "name" : "story",
+    "value" : "User selects some language and switches back"
+  }, {
+    "name" : "suite",
+    "value" : "As a user I want to check Home Page functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "User selects some language and switches back"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/HomePage.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.HomePage_feature.As a user I want to check Home Page functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_URL",
+    "value" : "/ru"
+  }, {
+    "name" : "language",
+    "value" : "ENG"
+  }, {
+    "name" : "original_URL",
+    "value" : "/en"
+  }, {
+    "name" : "selected_language",
+    "value" : "Ru"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4c82a075056b49c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694414331345,
+        "stop" : 1694414353709,
+        "duration" : 22364
+      }
+    }, {
+      "uid" : "23984536d765f7eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694380060654,
+        "stop" : 1694380085171,
+        "duration" : 24517
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "1887e7b30c5b48bf.json",
+  "parameterValues" : [ "/ru", "ENG", "/en", "Ru" ]
+}

@@ -1,0 +1,285 @@
+{
+  "uid" : "ca0a3f4184c518fd",
+  "name" : "Send a message without checking the \"I Agree\" checkbox and receive an error",
+  "fullName" : "src/test/features/SendMessageModal.feature:48",
+  "historyId" : "93d527255fe35cd690da370b2febff1f",
+  "time" : {
+    "start" : 1694414518064,
+    "stop" : 1694414536677,
+    "duration" : 18613
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefinitions.Hooks.initDriver()",
+    "time" : {
+      "start" : 1694414518065,
+      "stop" : 1694414518884,
+      "duration" : 819
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Home page is open",
+      "time" : {
+        "start" : 1694414518885,
+        "stop" : 1694414535239,
+        "duration" : 16354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I fill in \"fullName\" field with \"nameTest\" value",
+      "time" : {
+        "start" : 1694414535240,
+        "stop" : 1694414535538,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"email\" field with \"email@test.com\" value",
+      "time" : {
+        "start" : 1694414535539,
+        "stop" : 1694414535746,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"phone\" field with \"123456789\" value",
+      "time" : {
+        "start" : 1694414535749,
+        "stop" : 1694414535926,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"company\" field with \"testCompany\" value",
+      "time" : {
+        "start" : 1694414535927,
+        "stop" : 1694414536095,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I fill in \"description\" field with \"test\" value",
+      "time" : {
+        "start" : 1694414536097,
+        "stop" : 1694414536242,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click on the \"send_message\" button",
+      "time" : {
+        "start" : 1694414536243,
+        "stop" : 1694414536442,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the error \"Please check and accept our Privacy Policy\"",
+      "time" : {
+        "start" : 1694414536443,
+        "stop" : 1694414536511,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "StepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1694414536512,
+      "stop" : 1694414536676,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "david"
+  }, {
+    "name" : "thread",
+    "value" : "9506@david.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "story",
+    "value" : "Send a message without checking the \"I Agree\" checkbox and receive an error"
+  }, {
+    "name" : "suite",
+    "value" : "As A user I want to send message"
+  }, {
+    "name" : "testClass",
+    "value" : "Send a message without checking the \"I Agree\" checkbox and receive an error"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/david/Desktop/Tesvan_Project/TesvanProject/src/test/features/SendMessageModal.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.SendMessageModal_feature.As A user I want to send message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e83fc800414aa0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694379763093,
+        "stop" : 1694379783490,
+        "duration" : 20397
+      }
+    }, {
+      "uid" : "bbe3d9ffd45263d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694337475757,
+        "stop" : 1694337509306,
+        "duration" : 33549
+      }
+    }, {
+      "uid" : "e5d934739a9cb040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694334760460,
+        "stop" : 1694334792690,
+        "duration" : 32230
+      }
+    }, {
+      "uid" : "109639d4cd18f6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694331252666,
+        "stop" : 1694331275423,
+        "duration" : 22757
+      }
+    }, {
+      "uid" : "4a93ba94ed105b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694285234531,
+        "stop" : 1694285256221,
+        "duration" : 21690
+      }
+    }, {
+      "uid" : "f365873dca8b6588",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694199002038,
+        "stop" : 1694199024793,
+        "duration" : 22755
+      }
+    }, {
+      "uid" : "86356ca190361aca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1694193939403,
+        "stop" : 1694193962709,
+        "duration" : 23306
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "ca0a3f4184c518fd.json",
+  "parameterValues" : [ ]
+}
